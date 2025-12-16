@@ -1,12 +1,11 @@
 ---
 const { title = "DARF 6015" } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 <!DOCTYPE html>
 <html lang="pt-BR">
 ---
-const { title = "DARF 6015" } = Astro.props;
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
----
+
 
   <head>
     <meta charset="utf-8" />
