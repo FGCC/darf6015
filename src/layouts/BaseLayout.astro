@@ -11,6 +11,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
 <link rel="canonical" href={canonicalURL} />
 
+<slot name="head" />
+
 <!-- Favicon -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
