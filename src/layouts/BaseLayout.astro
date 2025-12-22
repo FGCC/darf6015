@@ -1,5 +1,5 @@
 ---
-const { title = "DARF 6015" } = Astro.props;
+const { title = "DARF 6015", description, ogImage } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 ---
 <!DOCTYPE html>
@@ -14,16 +14,18 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
 <meta property="og:title" content={title} />
-<meta property="og:description" content={description} />
 <meta property="og:url" content={canonicalURL} />
-<meta property="og:image" content={ogImage ?? "https://www.darf6015.com.br/og-image.jpg"} />
+
+{description && <meta property="og:description" content={description} />}
+{ogImage && <meta property="og:image" content={ogImage} />}
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
-<meta name="twitter:description" content={description} />
-<meta name="twitter:image" content={ogImage ?? "https://www.darf6015.com.br/og-image.jpg"} />
 <meta name="twitter:url" content={canonicalURL} />
+
+{description && <meta name="twitter:description" content={description} />}
+{ogImage && <meta name="twitter:image" content={ogImage} />}
 
 <!-- Favicon -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
