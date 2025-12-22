@@ -17,7 +17,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 <meta property="og:url" content={canonicalURL} />
 
 {description && <meta property="og:description" content={description} />}
-{ogImage && <meta property="og:image" content={ogImage} />}
+{ogImage && <meta property="og:image" content={`https://www.darf6015.com.br${ogImage}`} />}
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
@@ -25,7 +25,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 <meta name="twitter:url" content={canonicalURL} />
 
 {description && <meta name="twitter:description" content={description} />}
-{ogImage && <meta name="twitter:image" content={ogImage} />}
+{ogImage && <meta name="twitter:image" content={`https://www.darf6015.com.br${ogImage}`} />}
 
 <!-- Favicon -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
