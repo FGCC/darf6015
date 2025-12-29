@@ -10,7 +10,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   "name": "IRPF Ações: Calculadora DARF 6015 para Day Trade e Swing Trade",
   "url": "https://www.darf6015.com.br/",
   "isPartOf": {
-    "@id": "https://www.darf6015.com.br/#website"
+    "@type": "WebSite",
+    "name": "DARF 6015",
+    "url": "https://www.darf6015.com.br/"
   }
 }
 </script>
@@ -21,12 +23,14 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   "@type": "FinancialProduct",
   "name": "Planilha DARF 6015 – Cálculo de Imposto de Renda em Ações (Day Trade e Swing Trade)",
   "category": "TaxCalculation",
- "provider": {
-  "@id": "https://www.darf6015.com.br/#organization"
-},
   "audience": {
     "@type": "Audience",
-    "audienceType": "Investidores Pessoa Física"
+    "audienceType": "Investidores de Bolsa"
+  },
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "DARF 6015",
+    "url": "https://www.darf6015.com.br/"
   }
 }
 </script>
