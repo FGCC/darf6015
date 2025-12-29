@@ -25,6 +25,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
     {
       "@context": "https://schema.org",
       "@type": "Organization",
+      "@id": "https://www.darf6015.com.br/#organization",
       "name": "DARF 6015",
       "url": "https://www.darf6015.com.br/",
       "sameAs": [
@@ -43,8 +44,11 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
+      "@id": "https://www.darf6015.com.br/#website",
       "name": "DARF 6015",
-      "url": "https://www.darf6015.com.br/"
+      "url": "https://www.darf6015.com.br/",
+      "publisher": {
+         "@id": "https://www.darf6015.com.br/#organization"
     }
     </script>
 
