@@ -14,7 +14,44 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       "name": "IRPF Ações: Calculadora DARF 6015 para Day Trade e Swing Trade",
       "description": "Calcule seu IR sobre ações de forma automática. Planilha para controle de operações de Day Trade e Swing Trade com foco no código DARF 6015.",
       "isPartOf": { "@id": "https://www.darf6015.com.br/#website" },
-      "about": { "@id": "https://www.darf6015.com.br/#software" }
+      "about": { "@id": "https://www.darf6015.com.br/#software" },
+      "mainEntity": {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Qual o código do DARF para ações?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O código utilizado para o pagamento de imposto de renda sobre operações de Bolsa (Day Trade e Swing Trade) é o 6015."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Qual o vencimento do DARF 6015?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O imposto deve ser pago até o último dia útil do mês subsequente ao mês da apuração."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Qual a alíquota do imposto de ações?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "As alíquotas são de 15% para operações normais (Swing Trade) e 20% para Day Trade. Vale lembrar que há isenção para vendas de ações em Swing Trade de até R$ 20 mil dentro do mesmo mês."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Como compensar prejuízos de ações?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Os prejuízos podem ser abatidos de lucros ocorridos no mesmo mês ou em meses subsequentes, desde que sejam do mesmo tipo (comum com comum, day trade com day trade)."
+            }
+          }
+        ]
+      }
     },
     {
       "@type": "SoftwareApplication",
@@ -24,43 +61,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       "operatingSystem": "Windows, MacOS, Web, Excel, Google Sheets",
       "description": "Calculadora completa para Day Trade e Swing Trade com geração automática do código DARF 6015.",
       "author": { "@id": "https://www.darf6015.com.br/#organization" }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Qual o código do DARF para ações?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "O código utilizado para o pagamento de imposto de renda sobre operações de Bolsa (Day Trade e Swing Trade) é o 6015."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Qual o vencimento do DARF 6015?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "O imposto deve ser pago até o último dia útil do mês subsequente ao mês da apuração."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Qual a alíquota do imposto de ações?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "As alíquotas são de 15% para operações normais (Swing Trade) e 20% para Day Trade. Vale lembrar que há isenção para vendas de ações em Swing Trade de até R$ 20 mil dentro do mesmo mês."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Como compensar prejuízos de ações?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Os prejuízos podem ser abatidos de lucros ocorridos no mesmo mês ou em operações de meses subsequentes, desde que sejam do mesmo tipo (comum com comum, day trade com day trade)."
-          }
-        }
-      ]
     }
   ]
 }
