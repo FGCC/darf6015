@@ -6,14 +6,17 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "AboutPage",
-  "name": "Sobre Nós",
-  "url": "https://www.darf6015.com.br/sobre-nos/",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "DARF 6015",
-    "url": "https://www.darf6015.com.br/"
-  }
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://www.darf6015.com.br/sobre-nos/#webpage",
+      "url": "https://www.darf6015.com.br/sobre-nos/",
+      "name": "Sobre Nós - DARF 6015",
+      "description": "Conheça a história da DARF 6015 e nossa missão de simplificar o cálculo de impostos para investidores de Day Trade e Swing Trade.",
+      "isPartOf": { "@id": "https://www.darf6015.com.br/#website" },
+      "mainEntity": { "@id": "https://www.darf6015.com.br/#organization" }
+    }
+  ]
 }
 </script>
 
