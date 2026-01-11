@@ -6,15 +6,22 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Cotações das Bolsas Mundiais em Tempo Real",
-  "description": "Painel completo com cotações em tempo real dos principais índices das bolsas mundiais, incluindo mercados americanos, europeus e asiáticos.",
-  "url": "https://www.darf6015.com.br/cotacoes-bolsas-mundiais-em-tempo-real/",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "DARF 6015",
-    "url": "https://www.darf6015.com.br/"
-  }
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.darf6015.com.br/cotacoes-bolsas-mundiais-em-tempo-real/#webpage",
+      "url": "https://www.darf6015.com.br/cotacoes-bolsas-mundiais-em-tempo-real/",
+      "name": "Cotações das Bolsas Mundiais em Tempo Real",
+      "description": "Painel completo com cotações em tempo real dos principais índices das bolsas mundiais, incluindo mercados americanos, europeus e asiáticos.",
+      "isPartOf": { "@id": "https://www.darf6015.com.br/#website" },
+      "publisher": { "@id": "https://www.darf6015.com.br/#organization" },
+      "mainEntity": {
+        "@type": "DataFeed",
+        "name": "Índices Mundiais em Tempo Real",
+        "description": "Dados financeiros atualizados dos principais mercados globais."
+      }
+    }
+  ]
 }
 </script>
 
