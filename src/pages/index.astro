@@ -6,33 +6,26 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "IRPF Ações: Calculadora DARF 6015 para Day Trade e Swing Trade",
-  "description": "Calcule seu IR sobre ações de forma automática. Planilha para controle de operações de Day Trade e Swing Trade com foco no código DARF 6015.",
-  "url": "https://www.darf6015.com.br/",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "DARF 6015",
-    "url": "https://www.darf6015.com.br/"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FinancialProduct",
-  "name": "Planilha DARF 6015 – Cálculo de Imposto de Renda em Ações (Day Trade e Swing Trade)",
-  "description": "Calculadora completa para Day Trade e Swing Trade com geração de DARF 6015.",
-  "category": "TaxCalculation",
-  "provider": {
-    "@type": "Organization",
-    "name": "DARF 6015"
-  },
-  "audience": {
-    "@type": "Audience",
-    "audienceType": "Investidores de Bolsa"
-  }
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.darf6015.com.br/#webpage",
+      "url": "https://www.darf6015.com.br/",
+      "name": "IRPF Ações: Calculadora DARF 6015 para Day Trade e Swing Trade",
+      "description": "Calcule seu IR sobre ações de forma automática. Planilha para controle de operações de Day Trade e Swing Trade com foco no código DARF 6015.",
+      "isPartOf": { "@id": "https://www.darf6015.com.br/#website" },
+      "about": { "@id": "https://www.darf6015.com.br/#software" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://www.darf6015.com.br/#software",
+      "name": "Planilha DARF 6015",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Windows, MacOS, Web, Excel, Google Sheets",
+      "description": "Calculadora completa para Day Trade e Swing Trade com geração automática do código DARF 6015.",
+      "author": { "@id": "https://www.darf6015.com.br/#organization" }
+    }
+  ]
 }
 </script>
 
