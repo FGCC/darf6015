@@ -20,11 +20,13 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
 
- <!-- SCHEMA: ORGANIZATION -->
-    <script type="application/ld+json">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
       "@type": "Organization",
+      "@id": "https://www.darf6015.com.br/#organization",
       "name": "DARF 6015",
       "url": "https://www.darf6015.com.br/",
       "sameAs": [
@@ -35,18 +37,17 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
         "https://br.pinterest.com/traderbolsa/",
         "https://www.threads.com/@traderbolsa"
       ]
-    }
-    </script>
-
-    <!-- SCHEMA: WEBSITE -->
-    <script type="application/ld+json">
+    },
     {
-      "@context": "https://schema.org",
       "@type": "WebSite",
+      "@id": "https://www.darf6015.com.br/#website",
+      "url": "https://www.darf6015.com.br/",
       "name": "DARF 6015",
-      "url": "https://www.darf6015.com.br/"
+      "publisher": { "@id": "https://www.darf6015.com.br/#organization" }
     }
-    </script>
+  ]
+}
+</script>
 
     <style>
       body {
