@@ -92,12 +92,41 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 <div style="max-width: 560px; width: 100%; aspect-ratio: 16 / 9;">
   <iframe
-    src="https://www.youtube-nocookie.com/embed/hXy81TSU8Ig"
-    title="Como Gerar DARF de Day Trade e Swing Trade - IRPF Trader"
     style="width: 100%; height: 100%; border: 0;"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    loading="lazy"
-    allowfullscreen>
+    src="https://www.youtube-nocookie.com/embed/hXy81TSU8Ig"
+    srcdoc="<style>
+      * { padding: 0; margin: 0; overflow: hidden; }
+      html, body { height: 100%; background: #000; }
+      img, .play-button { position: absolute; margin: auto; top: 0; bottom: 0; left: 0; right: 0; }
+      img { width: 100%; }
+      .play-button {
+        width: 68px;
+        height: 48px;
+        background-color: rgba(33, 33, 33, 0.8);
+        border-radius: 8px;
+        transition: all 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .play-button:before {
+        content: '';
+        border-style: solid;
+        border-width: 12px 0 12px 20px;
+        border-color: transparent transparent transparent #fff;
+      }
+      a:hover .play-button {
+        background-color: #ff0000;
+      }
+    </style>
+    <a href='https://www.youtube-nocookie.com/embed/hXy81TSU8Ig?autoplay=1'>
+      <img src='https://img.youtube.com/vi/hXy81TSU8Ig/maxresdefault.jpg' alt='Vídeo IRPF Trader'>
+      <div class='play-button'></div>
+    </a>"
+    title="Como Gerar DARF de Day Trade e Swing Trade"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    loading="lazy">
   </iframe>
 </div>
 
