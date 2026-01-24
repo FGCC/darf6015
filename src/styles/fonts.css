@@ -87,3 +87,11 @@ h3 {
 .botao-link:hover {
   filter: brightness(0.95);
 }
+
+/* Substitui a tag <u> e <strong> com uma única classe */
+.texto-destaque {
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: #fdff37; /* Se quiser manter o fundo amarelo do print */
+  padding: 0 2px;
+}
