@@ -59,3 +59,36 @@ h3 {
   padding: 2px 4px;
   text-decoration: underline; 
 }
+
+/* Classe para o parágrafo amarelo de destaque */
+.destaque-amarelo {
+  background-color: #fdff37;
+  font-weight: bold;
+  padding: 4px 8px;
+  display: inline-block;
+  line-height: 1.38;
+  margin: 16px 0;
+}
+
+/* Classe corrigida para o seu botão de acesso */
+.botao-link {
+  display: inline-block;
+  background-color: #a0cbff;
+  padding: 4px 8px; /* Ajustado para manter o estilo original */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25em; /* O tamanho que você pediu */
+  line-height: 1.38;
+  margin: 16px 0;
+  color: #000;
+  border-radius: 4px;
+}
+
+.botao-link:hover {
+  filter: brightness(0.95);
+}
+
+/* Ajuste global para o DOM */
+strong {
+  font-weight: bold;
+}
