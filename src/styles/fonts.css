@@ -114,3 +114,16 @@ h3 {
   margin-bottom: 8px;
   line-height: 1.38;
 }
+
+/* Classe para esconder elementos preservando a acessibilidade e o SEO */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
