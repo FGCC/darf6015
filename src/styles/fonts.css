@@ -93,3 +93,18 @@ h3 {
   font-weight: bold;
   text-decoration: underline;
 }
+
+.link-indices-mundiais {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px; /* Equivalente ao antigo font size 5 */
+  font-weight: bold;
+  color: #0000FF; /* Azul padrão de link da imagem */
+  text-decoration: underline;
+  margin: 20px 0;
+  line-height: 1.38;
+}
+
+.link-indices-mundiais:hover {
+  color: #0000CC; /* Escurece levemente ao passar o mouse */
+}
