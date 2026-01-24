@@ -1,6 +1,9 @@
 ---
 const { title = "DARF 6015" } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+
+const { title = "DARF 6015" } = Astro.props;
+import '../styles/fonts.css'; // O Astro cuidará de otimizar isso
 ---
 <!DOCTYPE html>
 <html lang="pt-BR" dir="ltr">
@@ -19,14 +22,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
   <link rel="preload" href="/fonts/roboto-v50-latin-regular.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/fonts/roboto-v50-latin-500.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/fonts/roboto-v50-latin-700.woff2" as="font" type="font/woff2" crossorigin />
-
-  <style is:global>
-    @import "/src/styles/fonts.css";
-
-    body {
-      font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-    }
-  </style>
 
 <script type="application/ld+json">
 {
