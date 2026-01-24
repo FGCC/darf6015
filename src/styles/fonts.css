@@ -21,3 +21,8 @@
   font-style: normal;
   font-display: swap;
 }
+
+p {
+  line-height: 1.38;
+  margin: 16px 0; /* Equivalente exato a 12pt */
+}
