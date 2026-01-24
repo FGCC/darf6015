@@ -88,12 +88,6 @@ h3 {
   filter: brightness(0.95);
 }
 
-/* Substitui a tag <u> e <strong> com uma única classe */
-.texto-destaque {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
 .link-indices-mundiais {
   display: block;
   font-family: Arial, Helvetica, sans-serif;
@@ -126,4 +120,10 @@ h3 {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+.destaque-darf {
+  font-weight: bold;       /* Negrito */
+  text-decoration: underline; /* Sublinhado */
+  /* Você também pode adicionar a cor aqui se quiser */
 }
