@@ -108,3 +108,9 @@ h3 {
 .link-indices-mundiais:hover {
   color: #0000CC; /* Escurece levemente ao passar o mouse */
 }
+
+/* Estilo para os itens da lista (substitui o margin-bottom inline) */
+.passo-item {
+  margin-bottom: 8px;
+  line-height: 1.38;
+}
