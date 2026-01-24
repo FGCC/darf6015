@@ -60,35 +60,30 @@ h3 {
   text-decoration: underline; 
 }
 
-/* Classe para o parágrafo amarelo de destaque */
+/* O destaque amarelo agora ocupa a linha toda para o botão descer */
 .destaque-amarelo {
   background-color: #fdff37;
   font-weight: bold;
-  padding: 4px 8px;
-  display: inline-block;
+  padding: 8px;
+  display: block; /* Força o botão a ir para a linha de baixo */
   line-height: 1.38;
   margin: 16px 0;
 }
 
-/* Classe corrigida para o seu botão de acesso */
+/* O botão permanece compacto, mas agora aparecerá abaixo */
 .botao-link {
   display: inline-block;
   background-color: #a0cbff;
-  padding: 4px 8px; /* Ajustado para manter o estilo original */
+  padding: 6px 12px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.25em; /* O tamanho que você pediu */
+  font-size: 1.25em;
   line-height: 1.38;
-  margin: 16px 0;
+  margin-bottom: 16px;
   color: #000;
   border-radius: 4px;
 }
 
 .botao-link:hover {
   filter: brightness(0.95);
-}
-
-/* Ajuste global para o DOM */
-strong {
-  font-weight: bold;
 }
