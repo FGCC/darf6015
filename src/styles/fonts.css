@@ -56,7 +56,5 @@ h3 {
   margin: 16px 0;
   background-color: #a0cbff;
   padding: 2px 4px;
-  display: inline-block;
-  /* Adicionando o sublinhado aqui: */
   text-decoration: underline; 
 }
