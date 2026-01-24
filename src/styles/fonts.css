@@ -31,7 +31,7 @@ p {
   max-width: 560px;
   width: 100%;
   aspect-ratio: 16 / 9;
-  margin: 24px auto; /* Centraliza e dá respiro */
+  margin: 24px 0; /* O '0' à direita mantém o vídeo alinhado à esquerda */
 }
 
 .video-container iframe {
