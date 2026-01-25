@@ -167,8 +167,8 @@ main {
 /* O SEGREDO: Reduz o atraso de 2.340ms e substitui o <hr> */
 section {
   border-bottom: 1px solid #ddd; /* Faz o papel do <hr> sem criar tags extras */
-  padding-bottom: 16px;
-  margin-bottom: 16px;
+  padding-bottom: 14px;
+  margin-bottom: 14px;
   content-visibility: auto; /* Só renderiza o que está na tela, economizando processamento */
   contain-intrinsic-size: 1px 100px; /* Reserva espaço para evitar saltos na tela */
 }
