@@ -188,3 +188,15 @@ footer a {
   color: #000;
   text-decoration: none;
 }
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 8px; /* Controla a distância para o texto abaixo */
+  padding-top: 24px; 
+  line-height: 1.38;
+}
+
+/* Garante que o texto comece logo após o h1 ou o início da seção */
+section p:first-of-type {
+  margin-top: 0;
+}
