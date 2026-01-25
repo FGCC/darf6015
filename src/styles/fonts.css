@@ -159,7 +159,7 @@ nav a {
 
 main {
   max-width: 1100px;
-  margin: 32px auto;
+  margin: 0 auto 32px auto; /* Topo zerado para compensar o isolamento */
   padding: 0 14px;
   contain: layout; /* Ajuda a isolar o cálculo de layout do conteúdo principal */
 }
