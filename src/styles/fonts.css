@@ -167,10 +167,10 @@ main {
 /* O SEGREDO: Reduz o atraso de 2.340ms e substitui o <hr> */
 section {
   border-bottom: 1px solid #ddd; /* Faz o papel do <hr> sem criar tags extras */
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
   content-visibility: auto; /* Só renderiza o que está na tela, economizando processamento */
-  contain-intrinsic-size: 1px 500px; /* Reserva espaço para evitar saltos na tela */
+  contain-intrinsic-size: 1px 100px; /* Reserva espaço para evitar saltos na tela */
 }
 
 /* Garante que a primeira seção (onde está o parágrafo lento) apareça sem filtros */
