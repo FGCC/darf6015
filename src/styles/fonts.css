@@ -127,3 +127,65 @@ h3 {
   text-decoration: underline; /* Sublinhado */
   /* Você também pode adicionar a cor aqui se quiser */
 }
+
+/* --- Estilos de Base e Layout --- */
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-display: swap; /* Permite que o texto apareça antes da fonte carregar totalmente */
+  font-size: 16px;
+  background: #f2f2f2;
+  color: #111;
+}
+
+header {
+  background: #000;
+  padding: 16px;
+}
+
+nav {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 24px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+main {
+  max-width: 1100px;
+  margin: 32px auto;
+  padding: 0 14px;
+  contain: layout; /* Ajuda a isolar o cálculo de layout do conteúdo principal */
+}
+
+/* O SEGREDO: Reduz o atraso de 2.340ms e substitui o <hr> */
+section {
+  border-bottom: 1px solid #ddd; /* Faz o papel do <hr> sem criar tags extras */
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  content-visibility: auto; /* Só renderiza o que está na tela, economizando processamento */
+  contain-intrinsic-size: 1px 500px; /* Reserva espaço para evitar saltos na tela */
+}
+
+/* Garante que a primeira seção (onde está o parágrafo lento) apareça sem filtros */
+section:first-of-type {
+  content-visibility: visible;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  padding: 24px;
+  text-align: center;
+}
+
+footer a {
+  margin: 0 14px;
+  color: #000;
+  text-decoration: none;
+}
