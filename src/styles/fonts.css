@@ -133,7 +133,6 @@ h3 {
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-display: swap; /* Permite que o texto apareça antes da fonte carregar totalmente */
   font-size: 16px;
   background: #f2f2f2;
   color: #111;
@@ -166,11 +165,11 @@ main {
 
 /* O SEGREDO: Reduz o atraso de 2.340ms e substitui o <hr> */
 section {
-  border-bottom: 1px solid #ddd; /* Faz o papel do <hr> sem criar tags extras */
-  padding-bottom: 14px;
-  margin-bottom: 14px;
-  content-visibility: auto; /* Só renderiza o que está na tela, economizando processamento */
-  contain-intrinsic-size: 1px 100px; /* Reserva espaço para evitar saltos na tela */
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  content-visibility: auto; 
+  contain: content;
 }
 
 /* Garante que a primeira seção (onde está o parágrafo lento) apareça sem filtros */
