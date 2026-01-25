@@ -195,8 +195,3 @@ h1 {
   padding-top: 24px; 
   line-height: 1.38;
 }
-
-/* Garante que o texto comece logo após o h1 ou o início da seção */
-section p:first-of-type {
-  margin-top: 0;
-}
