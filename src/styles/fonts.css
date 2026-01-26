@@ -23,7 +23,7 @@
 }
 
 p {
-  line-height: 1.38;
+  line-height: 1.6;
   margin: 16px 0; /* Equivalente exato a 12pt */
 }
 
@@ -41,7 +41,7 @@ p {
 }
 
 h2 {
-  line-height: 1.38;
+  line-height: 1.35;
   margin-top: 16px;
   margin-bottom: 16px;
   background-color: #a0cbff;
@@ -53,7 +53,7 @@ h2 {
 
 h3 {
   font-size: 1.17em;
-  line-height: 1.38;
+  line-height: 1.35;
   margin: 16px 0;
   background-color: #a0cbff;
   padding: 2px 4px;
@@ -194,5 +194,5 @@ h1 {
   margin-top: 0;
   margin-bottom: 8px; /* Controla a distância para o texto abaixo */
   padding-top: 24px; 
-  line-height: 1.38;
+  line-height: 1.3;
 }
