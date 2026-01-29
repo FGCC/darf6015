@@ -1,7 +1,10 @@
 ---
-const { title = "DARF 6015" } = Astro.props;
-const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+const { 
+  title = "DARF 6015", 
+  description // Deixamos sem valor fixo aqui para ser obrigatório ou opcional
+} = Astro.props;
 
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 import '../styles/fonts.css';
 ---
 <!DOCTYPE html>
