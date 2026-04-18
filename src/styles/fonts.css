@@ -72,6 +72,21 @@ footer a {
   text-decoration: none;
 }
 
+/* Adicionamos apenas essas para organizar os blocos */
+.footer-nav, .footer-social {
+  margin-bottom: 10px;
+}
+
+.footer-copy {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.sep {
+  color: #ddd;
+}
+
 h1 {
   font-size: 32px;
   margin-top: 0;
