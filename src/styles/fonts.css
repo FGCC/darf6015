@@ -61,56 +61,48 @@ main {
 }
 
 footer {
-  border-top: 1px solid #eee;
-  padding: 40px 20px;
+  border-top: 1px solid #ddd; /* Linha um pouco mais visível */
+  padding: 50px 20px;
+  background-color: #f9f9f9; 
   text-align: center;
-  color: #666;
 }
 
-/* Redes sociais mais discretas */
-.footer-social {
-  margin-bottom: 15px;
+.footer-links {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px; /* Aumentei o espaço para não embolar */
 }
 
-.footer-social a {
-  margin: 0 10px;
-  font-size: 14px;
-  color: #888;
+.footer-links a {
   text-decoration: none;
-  transition: color 0.3s;
-}
-
-.footer-social a:hover {
-  color: #000;
-}
-
-/* Navegação com mais presença */
-.footer-nav {
-  margin-bottom: 20px;
-}
-
-.footer-nav a {
-  margin: 0 12px;
+  color: #000; /* Preto puro para máxima leitura */
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600; /* Peso semi-bold para os links "saltarem" */
+  transition: opacity 0.2s;
+}
+
+.footer-links a:hover {
+  opacity: 0.7; /* Efeito de hover suave sem mudar a cor */
+}
+
+.footer-bottom {
+  border-top: 1px solid #ddd;
+  padding-top: 25px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #333; /* Cinza bem escuro, quase preto */
+  line-height: 1.5;
+}
+
+.footer-bottom strong {
   color: #000;
-  text-decoration: none;
-}
-
-.footer-nav .sep {
-  color: #ddd;
-  font-weight: 300;
-}
-
-/* Copyright final */
-.footer-copy {
-  font-size: 13px;
-  color: #999;
-  margin-top: 15px;
-}
-
-.footer-copy strong {
-  color: #444;
+  font-weight: 800; /* Nome da marca bem evidente */
 }
 
 .sep {
