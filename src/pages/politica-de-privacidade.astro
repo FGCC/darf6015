@@ -11,16 +11,32 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "PrivacyPolicy",
+      "@type": "WebPage",
       "@id": "https://www.darf6015.com.br/politica-de-privacidade/#webpage",
       "url": "https://www.darf6015.com.br/politica-de-privacidade/",
       "name": "Política de Privacidade - DARF 6015",
       "description": "Informações detalhadas sobre como o portal DARF 6015 coleta, utiliza e protege os dados dos usuários em conformidade com a LGPD.",
       "isPartOf": { "@id": "https://www.darf6015.com.br/#website" },
-      "mainEntity": { "@id": "https://www.darf6015.com.br/#organization" },
+      "about": { "@id": "https://www.darf6015.com.br/#organization" },
       "inLanguage": "pt-BR",
       "datePublished": "2026-04-18T12:00:00+00:00",
-      "dateModified": "2026-04-18T12:00:00+00:00"
+      "dateModified": "2026-04-18T18:00:00+00:00",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.darf6015.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Política de Privacidade"
+          }
+        ]
+      }
     }
   ]
 }
