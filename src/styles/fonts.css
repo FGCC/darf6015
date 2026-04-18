@@ -61,26 +61,56 @@ main {
 }
 
 footer {
-  border-top: 1px solid #ddd;
-  padding: 24px;
+  border-top: 1px solid #eee;
+  padding: 40px 20px;
   text-align: center;
+  color: #666;
 }
 
-footer a {
-  margin: 0 14px;
+/* Redes sociais mais discretas */
+.footer-social {
+  margin-bottom: 15px;
+}
+
+.footer-social a {
+  margin: 0 10px;
+  font-size: 14px;
+  color: #888;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #000;
+}
+
+/* Navegação com mais presença */
+.footer-nav {
+  margin-bottom: 20px;
+}
+
+.footer-nav a {
+  margin: 0 12px;
+  font-size: 15px;
+  font-weight: 500;
   color: #000;
   text-decoration: none;
 }
 
-/* Adicionamos apenas essas para organizar os blocos */
-.footer-nav, .footer-social {
-  margin-bottom: 10px;
+.footer-nav .sep {
+  color: #ddd;
+  font-weight: 300;
 }
 
+/* Copyright final */
 .footer-copy {
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 10px;
+  font-size: 13px;
+  color: #999;
+  margin-top: 15px;
+}
+
+.footer-copy strong {
+  color: #444;
 }
 
 .sep {
