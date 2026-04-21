@@ -59,11 +59,23 @@ import '../styles/fonts.css';
   </head>
   <body>
     <header>
-      <nav>
-        <a href="/" rel="home">DARF 6015</a>
-        <a href="/cotacoes-bolsas-mundiais-em-tempo-real/">Cotações Bolsas Mundiais em Tempo Real</a>
-      </nav>
-    </header>
+  <nav aria-label="Navegação Principal">
+    <a 
+      href="/" 
+      rel="home" 
+      title="Calculadora de DARF 6015 e Guia de Imposto de Renda de Ações"
+    >
+      DARF 6015 | Calculadora IR Bolsa
+    </a>
+
+    <a 
+      href="/cotacoes-bolsas-mundiais-em-tempo-real/" 
+      title="Cotações Bolsas Mundiais em Tempo Real"
+    >
+      Cotações Bolsas Mundiais em Tempo Real
+    </a>
+  </nav>
+</header>
 
     <main>
       <slot />
