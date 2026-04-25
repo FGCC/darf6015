@@ -161,7 +161,7 @@ h3 {
 
 /* O destaque amarelo agora ocupa a linha toda para o botão descer */
 .destaque-amarelo {
-  background-color: #fdff37;
+  background-color: #EAF3FF;
   font-weight: bold;
   padding: 8px;
   display: block; /* Força o botão a ir para a linha de baixo */
