@@ -1,3 +1,12 @@
+# Regras para deletar a herança do Blogger (410 Gone)
+/20*
+  status: 410
+/p/*
+  status: 410
+/feeds/*
+  status: 410
+
+# Suas regras de segurança atuais permanecem abaixo
 /*
   X-Frame-Options: SAMEORIGIN
   X-Content-Type-Options: nosniff
