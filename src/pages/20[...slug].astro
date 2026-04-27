@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+// O sinal técnico para o robô do Google
+Astro.response.status = 410;
+Astro.response.statusText = 'Gone';
+
+// Título e Descrição ajustados para a realidade do 410
+const title = "Conteúdo Removido Permanentemente";
+const description = "Esta página e seu conteúdo foram removidos do DARF 6015 e não estão mais disponíveis.";
+const siteURL = "https://www.darf6015.com.br";
+const canonicalURL = `${siteURL}${Astro.url.pathname}`;
+---
+<BaseLayout title={title} description={description} canonical={canonicalURL} robots="noindex, follow">
+  <main style="text-align: center; padding: 80px 20px;">
+    <h1 style="font-size: 48px; margin-bottom: 20px;">410</h1>
+    <p style="font-size: 18px; margin-bottom: 10px;">Conteúdo removido permanentemente.</p>
+    <p style="font-size: 16px; color: #666; margin-bottom: 30px;">
+      As informações solicitadas não fazem mais parte do nosso banco de dados.
+    </p>
+    <a href="/" style="color:#0070f3; font-weight:500; text-decoration:none;">Ir para a Calculadora DARF 6015</a>
+  </main>
+</BaseLayout>
