@@ -1,35 +1,15 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const { all } = Astro.params;
-
-// Lógica de Filtro: Identifica se a URL é do "passado"
-const isOldContent = all?.startsWith('20') || all?.startsWith('p/') || all?.startsWith('feeds/');
-
-// Define o status: 410 para o lixo antigo, 404 para erros novos
-if (isOldContent) {
-  Astro.response.status = 410;
-  Astro.response.statusText = 'Gone';
-} else {
-  Astro.response.status = 404;
-  Astro.response.statusText = 'Not Found';
-}
-
-const title = isOldContent ? "Conteúdo Removido Permanentemente" : "404 - Página não encontrada";
-const description = "A página solicitada não está disponível no DARF 6015.";
+const title = "404 - Página não encontrada";
+const description = "A página que você está procurando não existe. Volte para o início do site DARF 6015.";
 const siteURL = "https://www.darf6015.com.br";
 const canonicalURL = `${siteURL}${Astro.url.pathname}`;
 ---
-
 <BaseLayout title={title} description={description} canonical={canonicalURL} robots="noindex, follow">
   <main style="text-align: center; padding: 80px 20px;">
-    <h1 style="font-size: 48px; margin-bottom: 20px;">{Astro.response.status}</h1>
-    <p style="font-size: 18px; margin-bottom: 10px;">{title}.</p>
-    <p style="font-size: 16px; color: #666; margin-bottom: 30px;">
-      {isOldContent 
-        ? "Este conteúdo antigo foi removido para priorizar nossas ferramentas atuais." 
-        : "A página que você está procurando não existe."}
-    </p>
+    <h1 style="font-size: 48px; margin-bottom: 20px;">404</h1>
+    <p style="font-size: 18px; margin-bottom: 30px;">Página não encontrada.</p>
     <a href="/" style="color:#0070f3; font-weight:500; text-decoration:none;">Voltar para o início</a>
   </main>
 </BaseLayout>
