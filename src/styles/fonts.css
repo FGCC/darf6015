@@ -226,3 +226,35 @@ h3 {
   text-decoration: underline; /* Sublinhado */
   /* Você também pode adicionar a cor aqui se quiser */
 }
+
+/* Espaçamento entre os itens da lista */
+ul li, ol li {
+  margin-bottom: 1.25rem; /* Dá o respiro entre os tópicos */
+  line-height: 1.6;       /* Melhora a leitura do texto */
+  list-style-position: outside; /* Mantém a bolinha fora do texto */
+}
+
+/* Organização das listas (Bolinhas e Números) */
+ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+  margin-bottom: 2rem;
+}
+
+ol {
+  padding-left: 1.5rem;
+  list-style-type: decimal;
+  margin-bottom: 2rem;
+}
+
+/* Ajuste para os títulos (H2) não colarem na lista acima */
+h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Estilo para o negrito não ficar "pesado" demais */
+strong {
+  color: #333;
+  font-weight: 700;
+}
