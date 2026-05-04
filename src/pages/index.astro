@@ -181,17 +181,22 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 <h2 id="como-calcular-ir-acoes">Como calcular o IR das operações com ações</h2>
 
-<p>
-  Tendo em mãos os resultados dos negócios, o investidor deve separá-los em dois tipos: operações normais (compra e venda em dias diferentes) e operações day trade (compra e venda no mesmo dia, de um mesmo ativo, e na mesma corretora). E assim obter para cada uma dessas duas modalidades qual foi o resultado geral das operações realizadas no mês.
-</p>
+<p>Após calcular o lucro ou prejuízo líquido das operações realizadas no mês, o investidor deve separá-las por modalidade:</p>
 
-<p>
-  Por exemplo, se você fez três operações day trade no mês, o resultado de day trade no mês será a soma do resultado das três operações. Caso tenha lucro no mês, irá calcular 20% de IR sobre o mesmo, e caso tenha prejuízo, poderá utilizar esse prejuízo para abater do lucro de day trade nos meses subsequentes.
-</p>
+<ul>
+    <li><strong>Operações Comuns (Normais):</strong> Compra e venda realizadas em dias diferentes.</li>
+    <li><strong>Operações Day Trade:</strong> Compra e venda de um mesmo ativo, realizadas no mesmo dia e na mesma corretora.</li>
+</ul>
 
-<p>
-  A mesma lógica serve para as operações normais. Se você encerrar 3 operações no mesmo mês, o resultado das operações normais no mês será a soma do resultado das três operações. Se isso resultar em lucro, deverá calcular 15% de imposto sobre o lucro. Se resultar em prejuízo, o prejuízo poderá ser utilizado para abater do lucro de operações normais nos meses subsequentes.
-</p>
+<p>Dessa forma, obtém-se o <strong>resultado consolidado</strong> mensal para cada categoria.</p>
+
+<p><strong>Exemplos Práticos:</strong></p>
+
+<ul>
+    <li><strong>No Day Trade:</strong> Se você realizou três operações no mês, o resultado final será a <strong>soma de todos os resultados</strong> (lucros e prejuízos) dessas operações. Havendo lucro no total do mês, a alíquota de IR é de <strong>20%</strong>. Em caso de prejuízo, o valor poderá ser utilizado para compensar lucros de Day Trade em meses seguintes.</li>
+    
+    <li><strong>Nas Operações Comuns:</strong> A lógica é a mesma. O resultado mensal é o <strong>total das operações</strong> encerradas no período. Sobre o lucro líquido, aplica-se a alíquota de <strong>15%</strong>. Se houver prejuízo, este poderá ser usado para compensar lucros da mesma categoria (operações comuns) nos meses seguintes.</li>
+</ul>
 
 <h3 id="duvida-comum-operacoes-day-trade">Regra de Day Trade: Venda e Recompra de Ativos</h3>
 
