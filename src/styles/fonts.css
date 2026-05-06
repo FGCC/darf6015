@@ -273,3 +273,16 @@ strong {
   font-weight: 600;
   color: #1e40af; /* Um azul escuro para dar contraste no cinza */
 }
+
+/* Ajusta o espaçamento apenas das listas de venda */
+ul.lista-compacta li {
+  margin-bottom: 4px; /* Distância entre um item e outro (ajuste como quiser) */
+  margin-top: 0;
+  line-height: 1.4;   /* Altura da linha para não ficar colado demais */
+}
+
+/* Opcional: remove o espaçamento extra que a própria lista gera no topo/base */
+ul.lista-compacta {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
