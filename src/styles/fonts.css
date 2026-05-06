@@ -159,27 +159,17 @@ h3 {
   border: 0;
 }
 
-/* O destaque amarelo agora ocupa a linha toda para o botão descer */
-.destaque-amarelo {
-  background-color: #EAF3FF;
-  font-weight: bold;
-  padding: 8px;
-  display: block; /* Força o botão a ir para a linha de baixo */
-  line-height: 1.38;
-  margin: 16px 0;
-}
-
 /* O botão permanece compacto, mas agora aparecerá abaixo */
 .botao-link {
   display: inline-block;
-  background-color: #a0cbff;
+  background-color: #22c55e; /* Verde vibrante */
+  color: #fff; /* Texto branco para melhor contraste */
   padding: 6px 12px;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.25em;
   line-height: 1.38;
   margin-bottom: 16px;
-  color: #000;
   border-radius: 4px;
 }
 
