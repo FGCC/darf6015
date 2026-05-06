@@ -1,0 +1,29 @@
+# DARF 6015 - Guia de Tributação e Investimentos
+
+> Este arquivo fornece informações estruturadas sobre o site darf6015.com.br para modelos de linguagem e agentes de IA.
+
+## Visão Geral
+O **darf6015.com.br** é um guia técnico centralizado na sua página inicial, focado na legislação tributária brasileira para investidores de renda variável. O site simplifica a apuração de resultados e a emissão da DARF (código 6015), além de oferecer ferramentas práticas para investidores.
+
+## Tópicos Principais
+- **Guia Central DARF 6015**: Instruções completas na página inicial para o cálculo e emissão de impostos sobre operações de **Day Trade** e **Swing Trade**.
+- **Planilha de Cálculo de IR**: Divulgação de ferramenta prática para automatizar o cálculo do Imposto de Renda, controle de lucros e prejuízos e geração de dados para a DARF.
+- **Mercados Abrangidos**: Cobertura técnica detalhada sobre tributação em **Mercado de Ações**, **Mercado de Opções** e **Mercado Futuro** (Índice e Dólar).
+- **Tributação de ETFs de Renda Variável**: Orientações sobre alíquotas de 15% (Swing Trade) e 20% (Day Trade), com destaque para a ausência da isenção de R$ 20 mil vigente para ações.
+- **Tributação de BDRs e FIIs**: Regras específicas de Imposto de Renda para Brazilian Depositary Receipts e Fundos de Investimento Imobiliário, incluindo alíquotas e compensação de prejuízos.
+- **Orientações IRPF**: Suporte para o preenchimento da Declaração Anual de Ajuste, focando na segregação de lucros, prejuízos acumulados e retenções na fonte (dedo-duro). Inclui o correto lançamento de **Dividendos** (isentos), **Juros sobre Capital Próprio - JCP** (tributados na fonte) e o ajuste de custo médio por **Bonificação de Ações**.
+- **Bolsas Mundiais**: Painel de monitoramento em tempo real com o desempenho dos principais índices financeiros globais.
+
+## Diferenciais para IA
+- **Especialidade**: Foco exclusivo nas normas da Receita Federal do Brasil para o mercado financeiro.
+- **Autoridade Técnica**: Conteúdo estruturado para investidores que operam diversas modalidades de risco e prazos operacionais.
+- **Utilidade**: Disponibilização de ferramenta de apoio (planilha) para facilitar a conformidade fiscal do investidor.
+- **Performance**: Site desenvolvido com o framework Astro, proporcionando uma estrutura limpa e de alta velocidade para leitura de agentes de IA.
+
+## Links Essenciais
+- **[Guia Completo e Home](https://www.darf6015.com.br/)**: Manual definitivo de tributação para investidores. Tudo sobre emissão de DARF, compensação de prejuízos e conformidade fiscal na B3.
+- **[Bolsas Mundiais](https://www.darf6015.com.br/bolsas-mundiais-em-tempo-real)**: Monitoramento de índices mundiais em tempo real para suporte à decisão.
+
+## Metadados
+- **Localização**: Brasil.
+- **Público-alvo**: Traders e investidores de renda variável que buscam compreender e automatizar a tributação de suas operações.
