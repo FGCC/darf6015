@@ -162,8 +162,8 @@ h3 {
 /* O botão permanece compacto, mas agora aparecerá abaixo */
 .botao-link {
   display: inline-block;
-  background-color: #22c55e; /* Verde vibrante */
-  color: #fff; /* Texto branco para melhor contraste */
+  background-color: #facc15; /* Amarelo forte */
+  color: #000000; /* Texto preto */
   padding: 6px 12px;
   text-decoration: none;
   font-weight: bold;
@@ -174,7 +174,7 @@ h3 {
 }
 
 .botao-link:hover {
-  filter: brightness(0.95);
+  background-color: #eab308; /* Amarelo mais escuro no hover */
 }
 
 .link-indices-mundiais {
