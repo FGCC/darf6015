@@ -1,4 +1,3 @@
-/* --- Fontes --- */
 @font-face {
   font-family: 'Roboto';
   src: url('/fonts/roboto-v50-latin-regular.woff2') format('woff2');
@@ -26,22 +25,19 @@
   font-display: swap;
 }
 
-/* --- Layout Base (Laterais e Estrutura) --- */
+/* --- Estilos de Base e Layout --- */
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  background-color: #e2e8f0; /* Cor das laterais */
+  background: #f2f2f2;
   color: #111;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
 header {
-  background-color: #000000; /* Header preto de ponta a ponta */
-  width: 100%;
-  padding: 16px 0;
+  background: #000;
+  padding: 16px;
 }
 
 nav {
@@ -49,7 +45,6 @@ nav {
   margin: auto;
   display: flex;
   gap: 24px;
-  padding: 0 16px;
 }
 
 nav a {
@@ -58,44 +53,66 @@ nav a {
   font-weight: 500;
 }
 
-/* O "miolo" do site com a sombra lateral */
-.container-central {
-  background-color: #f8fafc; /* Meio cinza claro */
-  width: 100%;
-  max-width: 1100px; 
-  margin: 0 auto; 
-  flex: 1; 
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.08); /* Sombra lateral */
-  display: flex;
-  flex-direction: column;
-}
-
 main {
-  padding: 0 20px 40px 20px; /* Topo zerado para o H1 subir */
-  contain: layout;
-  flex: 1;
+  max-width: 1100px;
+  margin: 0 auto 32px auto; /* Topo zerado para compensar o isolamento */
+  padding: 0 14px;
+  contain: layout; /* Ajuda a isolar o cálculo de layout do conteúdo principal */
 }
 
-/* --- Elementos de Texto --- */
+footer {
+  border-top: 1px solid #ddd;
+  padding: 50px 20px;
+  background-color: #fff; /* Fundo branco puro para contraste total */
+  text-align: center;
+}
+
+/* Força todos os links dentro do footer a serem pretos */
+footer a, 
+.footer-links a {
+  color: #000 !important; /* O !important garante que o azul suma */
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 15px;
+  display: inline-block;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-nav {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: #333;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.sep {
+  color: #ddd; /* Cor suave para a barrinha */
+  margin: 0 5px; /* Espaçamento nas laterais para não grudar no texto */
+}
+
 h1 {
   font-size: 32px;
   margin-top: 0;
-  margin-bottom: 8px;
-  padding-top: 15px; /* Distância controlada do header preto */
+  margin-bottom: 8px; /* Controla a distância para o texto abaixo */
+  padding-top: 24px; 
   line-height: 1.3;
 }
 
 p {
   line-height: 1.5;
-  margin: 16px 0;
+  margin: 16px 0; /* Equivalente exato a 12pt */
 }
 
-strong {
-  color: #333;
-  font-weight: 700;
-}
-
-/* Seções e Performance */
+/* O SEGREDO: Reduz o atraso de 2.340ms e substitui o <hr> */
 section {
   border-bottom: 1px solid #ddd;
   padding-bottom: 12px;
@@ -104,18 +121,18 @@ section {
   contain: content;
 }
 
+/* Garante que a primeira seção (onde está o parágrafo lento) apareça sem filtros */
 section:first-of-type {
   content-visibility: visible;
 }
 
-/* Títulos com Fundo Azul */
 h2 {
   line-height: 1.35;
-  margin-top: 2.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 16px;
+  margin-bottom: 16px;
   background-color: #a0cbff;
   padding: 2px 4px;
-  font-size: 1.5em;
+  font-size: 1.5em; /* Ajuste o tamanho se necessário */
   font-weight: bold;
   text-decoration: underline;
 }
@@ -129,11 +146,24 @@ h3 {
   text-decoration: underline; 
 }
 
-/* --- Componentes --- */
+.video-container {
+  max-width: 560px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 24px 0; /* O '0' à direita mantém o vídeo alinhado à esquerda */
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* O botão permanece compacto, mas agora aparecerá abaixo */
 .botao-link {
   display: inline-block;
-  background-color: #facc15;
-  color: #000000;
+  background-color: #facc15; /* Amarelo forte */
+  color: #000000; /* Texto preto */
   padding: 6px 12px;
   text-decoration: none;
   font-weight: bold;
@@ -144,9 +174,82 @@ h3 {
 }
 
 .botao-link:hover {
-  background-color: #eab308;
+  background-color: #eab308; /* Amarelo mais escuro no hover */
 }
 
+.link-indices-mundiais {
+  display: block;
+  font-family: 'Roboto', system-ui, sans-serif;
+  font-size: 20px; /* Equivalente ao antigo font size 5 */
+  font-weight: bold;
+  color: #0000FF; /* Azul padrão de link da imagem */
+  text-decoration: underline;
+  margin: 20px 0;
+  line-height: 1.38;
+}
+
+.link-indices-mundiais:hover {
+  color: #0000CC; /* Escurece levemente ao passar o mouse */
+}
+
+/* Estilo para os itens da lista (substitui o margin-bottom inline) */
+.passo-item {
+  margin-bottom: 8px;
+  line-height: 1.38;
+}
+
+/* Classe para esconder elementos preservando a acessibilidade e o SEO */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.destaque-darf {
+  font-weight: bold;       /* Negrito */
+  text-decoration: underline; /* Sublinhado */
+  /* Você também pode adicionar a cor aqui se quiser */
+}
+
+/* Espaçamento entre os itens da lista */
+ul li, ol li {
+  margin-bottom: 1.25rem; /* Dá o respiro entre os tópicos */
+  line-height: 1.6;       /* Melhora a leitura do texto */
+  list-style-position: outside; /* Mantém a bolinha fora do texto */
+}
+
+/* Organização das listas (Bolinhas e Números) */
+ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+  margin-bottom: 2rem;
+}
+
+ol {
+  padding-left: 1.5rem;
+  list-style-type: decimal;
+  margin-bottom: 2rem;
+}
+
+/* Ajuste para os títulos (H2) não colarem na lista acima */
+h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Estilo para o negrito não ficar "pesado" demais */
+strong {
+  color: #333;
+  font-weight: 700;
+}
+
+/* Estilo para o box de destaque */
 .box-calculo {
   background-color: #f3f4f6;
   padding: 1.25rem;
@@ -155,71 +258,31 @@ h3 {
   border: 1px solid #e5e7eb;
 }
 
-.formula {
-  display: block;
-  margin-top: 0.8rem;
-  font-family: monospace;
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #1e40af;
-}
-
-/* --- Listas --- */
-ul, ol {
-  padding-left: 1.5rem;
-  margin-bottom: 2rem;
-}
-
-ul li, ol li {
-  margin-bottom: 1.25rem;
+.box-calculo p {
+  margin: 0;
+  color: #374151;
   line-height: 1.6;
 }
 
-ul.lista-compacta li {
-  margin-bottom: 4px;
-  line-height: 1.4;
-}
-
-/* --- Footer --- */
-footer {
-  background-color: #e2e8f0; /* Cor das laterais para suavizar o final */
-  width: 100%;
-  border-top: 1px solid #ddd;
-  padding: 50px 20px;
-  text-align: center;
-}
-
-footer a {
-  color: #000 !important;
-  text-decoration: none;
-  font-size: 15px;
+/* Estilo para a linha da fórmula */
+.formula {
+  display: block;
+  margin-top: 0.8rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 1.1rem;
   font-weight: 600;
-  margin: 0 15px;
-  display: inline-block;
+  color: #1e40af; /* Um azul escuro para dar contraste no cinza */
 }
 
-footer a:hover {
-  text-decoration: underline;
+/* Ajusta o espaçamento apenas das listas de venda */
+ul.lista-compacta li {
+  margin-bottom: 4px; /* Distância entre um item e outro (ajuste como quiser) */
+  margin-top: 0;
+  line-height: 1.4;   /* Altura da linha para não ficar colado demais */
 }
 
-.footer-copy {
-  font-size: 14px;
-  color: #333;
-  margin-top: 20px;
-  font-weight: bold;
-}
-
-.sep {
-  color: #ddd;
-  margin: 0 5px;
-}
-
-/* Utilitários */
-.sr-only {
-  position: absolute;
-  width: 1px; height: 1px;
-  padding: 0; margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
+/* Opcional: remove o espaçamento extra que a própria lista gera no topo/base */
+ul.lista-compacta {
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
