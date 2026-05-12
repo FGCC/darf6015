@@ -287,30 +287,38 @@ ul.lista-compacta {
   margin-bottom: 16px;
 }
 
-/* No seu arquivo de estilo */
+/* As laterais ficam aqui */
 body {
-  background-color: #f5f7f9; /* Um cinza azulado bem leve para as laterais */
+  background-color: #e2e8f0; /* Um cinza levemente mais escuro/azulado */
   margin: 0;
-  padding: 0;
-}
-
-.container-central {
-  background-color: #ffffff; /* Fundo branco puro para o conteúdo */
-  max-width: 1100px; /* Largura máxima para não esticar em monitores UltraWide */
-  margin: 0 auto; /* Centraliza o site */
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
-  
-  /* Sombra leve e moderna */
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.05); 
-  
-  /* Melhora o respiro interno visto na image_805302.jpg */
-  padding: 40px 60px; 
 }
 
-/* Ajuste para telas menores (mobile) */
-@media (max-width: 768px) {
-  .container-central {
-    padding: 20px;
-    box-shadow: none; /* No mobile a sombra geralmente não aparece, economiza renderização */
-  }
+/* O centro (onde está o slot) */
+.container-central {
+  background-color: #f8fafc; /* Cinza muito claro, quase branco */
+  width: 100%;
+  max-width: 1100px; /* Largura ideal para leitura */
+  margin: 0 auto;
+  flex: 1;
+  
+  /* Sombra para separar o cinza claro do cinza escuro */
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); 
+  
+  /* Borda sutil para definir o limite se a sombra for muito clara */
+  border-left: 1px solid rgba(0,0,0,0.05);
+  border-right: 1px solid rgba(0,0,0,0.05);
+}
+
+main {
+  padding: 40px 30px;
+}
+
+/* Header e Footer fora do container */
+header, footer {
+  width: 100%;
+  background-color: #000000; /* Mantendo o padrão da image_80a87f.jpg */
+  color: white;
 }
