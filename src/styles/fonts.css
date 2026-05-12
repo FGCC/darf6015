@@ -283,6 +283,6 @@ ul.lista-compacta li {
 
 /* Opcional: remove o espaçamento extra que a própria lista gera no topo/base */
 ul.lista-compacta {
-  margin-top: 8px;
+  margin-top: 16px;
   margin-bottom: 16px;
 }
