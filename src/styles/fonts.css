@@ -284,7 +284,7 @@ ul.lista-compacta li {
 
 /* Opcional: remove o espaçamento extra que a própria lista gera no topo/base */
 ul.lista-compacta {
-  margin-top: 16px; /* Ajustado de .8px para 16px para dar respiro real */
+  margin-top: 8px; /* Ajustado de .8px para 16px para dar respiro real */
   margin-bottom: 16px;
   padding-left: 1.5rem; /* Garante que o bullet apareça alinhado */
   list-style-type: disc; /* Garante que o ponto seja o padrão */
