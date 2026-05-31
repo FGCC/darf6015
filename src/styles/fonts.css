@@ -36,21 +36,28 @@ body {
 }
 
 header {
-  background: #1a1d24; /* Sai o preto puro, entra o grafite profissional */
-  padding: 20px 40px;  /* Aumenta o respiro lateral para desgrudar da borda */
+  background: #1a1d24; /* O cinza escuro no lugar do preto puro */
+  padding: 20px 40px;  /* Respiro vertical e horizontal */
+  border-bottom: 1px solid #2d3139; /* Linha sutil de acabamento */
 }
 
 nav {
   max-width: 1100px;
-  margin: auto;
+  margin: 0 auto;       /* Centraliza o menu na tela */
   display: flex;
-  gap: 24px;
+  justify-content: space-between; /* Um link na esquerda, outro na direita */
+  align-items: center;  /* Alinha os textos verticalmente */
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
   font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ebd161; /* Seu amarelo ao passar o mouse */
 }
 
 main {
