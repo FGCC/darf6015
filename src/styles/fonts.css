@@ -35,40 +35,72 @@ body {
   color: #111;
 }
 
+/* --- COMPUTADOR (DESKTOP) --- */
 header.meu-header-custom {
   background-color: #1a1d24 !important; /* Grafite profissional */
-  padding: 20px 40px !important;       /* Dá o respiro vertical e lateral */
+  padding: 24px 40px !important;       /* Aumentei levemente o respiro para combinar com letras maiores */
   border-bottom: 1px solid #2d3139 !important;
   width: 100% !important;
   display: block !important;
 }
 
 .meu-nav-custom {
-  max-width: 1100px !important;  /* Limita o tamanho para alinhar com o texto de baixo */
-  margin: 0 auto !important;     /* Centraliza o bloco na tela */
+  max-width: 1100px !important;  /* Alinha perfeitamente com o meio do site */
+  margin: 0 auto !important;     /* Centraliza o menu */
   display: flex !important;
-  justify-content: flex-start !important; /* Junta os links no começo */
+  justify-content: flex-start !important; /* Mantém os links juntos no início */
   align-items: center !important;
-  gap: 32px !important;          /* Espaço limpo entre os dois links */
+  gap: 40px !important;          /* Aumentei o espaço entre os dois links */
 }
 
-/* Estilo para tirar o sublinhado roxo feio do navegador */
-.meu-nav-custom a {
+/* Link Principal (DARF 6015 | Calculadora) */
+.meu-nav-custom a.link-home {
   color: #ffffff !important;
   text-decoration: none !important;
-  font-weight: 800 !important;
-  font-size: 18px !important;
+  font-weight: 800 !important;   /* Letra bem marcante */
+  font-size: 18px !important;    /* Letra maior e nítida no monitor */
   transition: color 0.2s !important;
 }
 
+/* Link Secundário (Bolsas Mundiais) */
 .meu-nav-custom a.link-bolsas {
-  color: #b3b9c4 !important; /* Deixa o segundo link um pouco mais discreto */
+  color: #b3b9c4 !important;
+  text-decoration: none !important;
   font-weight: 600 !important;
+  font-size: 16px !important;    /* Letra confortável para ler de longe no monitor */
+  transition: color 0.2s !important;
 }
 
 /* Efeito ao passar o mouse */
 .meu-nav-custom a:hover {
   color: #ebd161 !important; /* Seu tom de amarelo */
+}
+
+
+/* --- CELULAR (MOBILE) --- */
+@media (max-width: 640px) {
+  header.meu-header-custom {
+    padding: 16px 20px !important; /* Economiza espaço vertical no celular */
+  }
+
+  .meu-nav-custom {
+    flex-direction: column !important; /* Empilha um embaixo do outro */
+    gap: 12px !important; 
+    text-align: center !important;
+  }
+
+  /* Mantém um tamanho confortável para o dedão clicar e ler na tela pequena */
+  .meu-nav-custom a.link-home {
+    font-size: 16px !important;
+    display: block !important;
+    padding: 4px 0 !important;
+  }
+
+  .meu-nav-custom a.link-bolsas {
+    font-size: 15px !important;
+    display: block !important;
+    padding: 4px 0 !important;
+  }
 }
 
 main {
