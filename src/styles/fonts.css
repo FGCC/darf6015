@@ -53,6 +53,11 @@ nav a {
   font-weight: 500;
 }
 
+nav a:hover {
+  color: #ff6b00; /* Muda a cor para laranja ao passar o mouse */
+  transition: color 0.2s ease-in-out; /* Deixa a mudança de cor suave */
+}
+
 main {
   max-width: 1100px;
   margin: 0 auto 32px auto; /* Topo zerado para compensar o isolamento */
