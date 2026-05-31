@@ -56,14 +56,14 @@ header.meu-header-custom {
 .meu-nav-custom a {
   color: #ffffff !important;
   text-decoration: none !important;
-  font-weight: 700 !important;
-  font-size: 15px !important;
+  font-weight: 800 !important;
+  font-size: 18px !important;
   transition: color 0.2s !important;
 }
 
 .meu-nav-custom a.link-bolsas {
   color: #b3b9c4 !important; /* Deixa o segundo link um pouco mais discreto */
-  font-weight: 500 !important;
+  font-weight: 600 !important;
 }
 
 /* Efeito ao passar o mouse */
