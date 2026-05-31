@@ -54,7 +54,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff6b00; /* Muda a cor para laranja ao passar o mouse */
+  color: #ebd161; /* Muda a cor para amarelo ao passar o mouse */
   transition: color 0.2s ease-in-out; /* Deixa a mudança de cor suave */
 }
 
