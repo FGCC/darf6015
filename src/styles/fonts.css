@@ -36,8 +36,8 @@ body {
 }
 
 header {
-  background: #000;
-  padding: 16px;
+  background: #1a1d24; /* Sai o preto puro, entra o grafite profissional */
+  padding: 20px 40px;  /* Aumenta o respiro lateral para desgrudar da borda */
 }
 
 nav {
