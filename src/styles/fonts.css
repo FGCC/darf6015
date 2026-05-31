@@ -193,22 +193,37 @@ h3 {
   border: 0;
 }
 
-/* O botão permanece compacto, mas agora aparecerá abaixo */
+/* --- ESTILO DO BOTÃO (COMPUTADOR) --- */
 .botao-link {
-  display: inline-block;
-  background-color: #facc15; /* Amarelo forte */
-  color: #000000; /* Texto preto */
-  padding: 6px 12px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.25em;
-  line-height: 1.38;
-  margin-bottom: 16px;
-  border-radius: 4px;
+  display: inline-block;        /* Permite controlar o tamanho e espaçamento corretamente */
+  background: #ebd161;          /* O mesmo tom de amarelo do seu site */
+  color: #000000 !important;    /* Texto preto bem forte e legível */
+  text-decoration: none !important;
+  font-size: 18px;              /* Letra imponente no computador */
+  font-weight: 800;             /* Deixa a letra bem grossa e chamativa */
+  padding: 14px 28px;           /* Respiro generoso para dar corpo ao botão */
+  border-radius: 6px;           /* Cantos levemente arredondados (visual moderno) */
+  margin: 20px 0;               /* Afasta o botão do texto de cima e do vídeo de baixo */
+  text-transform: uppercase;    /* Força as letras a ficarem maiúsculas e organizadas */
+  transition: all 0.2s ease-in-out;
 }
 
+/* Efeito ao passar o mouse (Computador) */
 .botao-link:hover {
-  background-color: #eab308; /* Amarelo mais escuro no hover */
+  background: #ff6b00;          /* Transiciona para o seu laranja ao passar o mouse! */
+  color: #ffffff !important;    /* Texto muda para branco no fundo laranja para contrastar */
+  transform: translateY(-2px);  /* O botão dá um leve salto para cima */
+}
+
+/* --- CORREÇÃO DO BOTÃO PARA O CELULAR (MOBILE) --- */
+@media (max-width: 640px) {
+  .botao-link {
+    display: block;             /* Faz o botão ocupar a largura disponível na tela */
+    text-align: center;         /* Centraliza o texto perfeitamente */
+    font-size: 14px;            /* Diminui a letra cirurgicamente para CABER em uma linha só */
+    padding: 14px 10px;         /* Mantém uma altura excelente para o clique do dedão */
+    font-weight: 700;
+  }
 }
 
 .link-indices-mundiais {
