@@ -141,13 +141,14 @@ section:first-of-type {
   content-visibility: visible;
 }
 
+/* --- CÓDIGO ATUAL QUE VOCÊ JÁ TEM --- */
 h2 {
   line-height: 1.35;
   margin-top: 16px;
   margin-bottom: 16px;
   background-color: #a0cbff;
   padding: 2px 4px;
-  font-size: 1.5em; /* Ajuste o tamanho se necessário */
+  font-size: 1.5em; 
   font-weight: bold;
   text-decoration: underline;
 }
@@ -159,6 +160,24 @@ h3 {
   background-color: #a0cbff;
   padding: 2px 4px;
   text-decoration: underline; 
+}
+
+/* --- ADICIONE ESTE BLOCO LOGO ABAIXO PARA CONTROLAR O CELULAR --- */
+@media (max-width: 640px) {
+  h1 {
+    font-size: 24px;       /* O h1 que já havíamos ajustado */
+  }
+
+  h2 {
+    font-size: 20px;       /* Força o h2 a ter um tamanho fixo e elegante no celular */
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+  h3 {
+    font-size: 18px;       /* Força o h3 a ser ligeiramente menor que o h2, criando hierarquia */
+    margin: 12px 0;
+  }
 }
 
 .video-container {
