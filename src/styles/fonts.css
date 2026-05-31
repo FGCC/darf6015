@@ -35,40 +35,40 @@ body {
   color: #111;
 }
 
-:global(header) {
-  background: #1a1d24 !important; /* Grafite profissional */
-  padding: 20px 40px !important;  /* Respiro vertical e lateral */
-  border-bottom: 1px solid #2d3139 !important; /* Linha sutil inferior */
+header.meu-header-custom {
+  background-color: #1a1d24 !important; /* Grafite profissional */
+  padding: 20px 40px !important;       /* Dá o respiro vertical e lateral */
+  border-bottom: 1px solid #2d3139 !important;
   width: 100% !important;
+  display: block !important;
 }
 
-:global(nav) {
-  max-width: 1100px !important;  /* Mesma largura máxima do seu conteúdo de texto */
-  margin: 0 auto !important;     /* Centraliza o bloco inteiro do nav no meio da tela */
+.meu-nav-custom {
+  max-width: 1100px !important;  /* Limita o tamanho para alinhar com o texto de baixo */
+  margin: 0 auto !important;     /* Centraliza o bloco na tela */
   display: flex !important;
-  justify-content: flex-start !important; /* Alinha os links no início (esquerda) do bloco centralizado */
+  justify-content: flex-start !important; /* Junta os links no começo */
   align-items: center !important;
-  gap: 32px !important;          /* Dá um espaço elegante de separação entre os dois links */
+  gap: 32px !important;          /* Espaço limpo entre os dois links */
 }
 
-:global(nav a) {
-  color: #fff !important;
+/* Estilo para tirar o sublinhado roxo feio do navegador */
+.meu-nav-custom a {
+  color: #ffffff !important;
   text-decoration: none !important;
   font-weight: 700 !important;
   font-size: 15px !important;
   transition: color 0.2s !important;
 }
 
-/* Efeito ao passar o mouse */
-:global(nav a:hover) {
-  color: #ebd161 !important; /* Seu tom de amarelo */
+.meu-nav-custom a.link-bolsas {
+  color: #b3b9c4 !important; /* Deixa o segundo link um pouco mais discreto */
+  font-weight: 500 !important;
 }
 
-/* Deixa o link secundário ligeiramente mais discreto para criar hierarquia visual */
-:global(nav a:last-child) {
-  color: #b3b9c4 !important;
-  font-weight: 500 !important;
-  font-size: 14px !important;
+/* Efeito ao passar o mouse */
+.meu-nav-custom a:hover {
+  color: #ebd161 !important; /* Seu tom de amarelo */
 }
 
 main {
