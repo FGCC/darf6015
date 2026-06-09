@@ -27,3 +27,6 @@ O **darf6015.com.br** é um guia técnico centralizado na sua página inicial, f
 ## Metadados
 - **Localização**: Brasil.
 - **Público-alvo**: Traders e investidores de renda variável que buscam compreender e automatizar a tributação de suas operações.
+
+## Documentação Completa para IA
+- **[Full Documentation](https://www.darf6015.com.br/llms-full.txt)**: Versão expandida contendo todo o conteúdo textual do site, guias passo a passo, tabelas de alíquotas e respostas a dúvidas frequentes formatadas especificamente para processamento denso de LLMs.
