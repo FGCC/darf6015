@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+# Sitemap tradicional para o Google e outros buscadores
 Sitemap: https://www.darf6015.com.br/sitemap.xml
+
+# Mapa de conteúdo limpo para Inteligências Artificiais (LLMs)
+Sitemap: https://www.darf6015.com.br/llms.txt
