@@ -31,8 +31,15 @@ import '../styles/fonts.css';
 <meta property="og:url" content={canonicalURL} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={absoluteOgImage} />
 <meta property="og:locale" content="pt_BR" />
+
+<!-- Configuração Explícita da Imagem (Resolve o erro do Facebook) -->
+<meta property="og:image" content={absoluteOgImage} />
+<meta property="og:image:secure_url" content={absoluteOgImage} />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Calculadora DARF 6015 e Guia de IR para Investidores" />
 
 <!-- Twitter / X -->
 <meta property="twitter:card" content="summary_large_image" />
