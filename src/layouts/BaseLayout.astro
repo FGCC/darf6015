@@ -1,12 +1,16 @@
 ---
 const { 
   title = "DARF 6015 | Cálculo e Guia para Investidores", 
-  description, // Deixamos sem valor fixo aqui para ser obrigatório ou opcional
-  ogImage = "/og-image.png" // Imagem padrão de compartilhamento (ex: 1200x630px)
+  description, 
+  ogImage = "/og-image.png" 
 } = Astro.props;
 
+// Remove qualquer barra no final do site para garantir que a junção com a imagem fique limpa
+const siteRoot = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
+const absoluteOgImage = `${siteRoot}${ogImage}`;
+
+// Mantém o comportamento correto de barras para as páginas de conteúdo
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
-const absoluteOgImage = new URL(ogImage, Astro.site).toString();
 
 import '../styles/fonts.css';
 ---
