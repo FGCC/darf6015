@@ -1,10 +1,13 @@
 ---
 const { 
   title = "DARF 6015 | Cálculo e Guia para Investidores", 
-  description // Deixamos sem valor fixo aqui para ser obrigatório ou opcional
+  description, // Deixamos sem valor fixo aqui para ser obrigatório ou opcional
+  ogImage = "/og-image.png" // Imagem padrão de compartilhamento (ex: 1200x630px)
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+const absoluteOgImage = new URL(ogImage, Astro.site).toString();
+
 import '../styles/fonts.css';
 ---
 <!DOCTYPE html>
@@ -17,6 +20,21 @@ import '../styles/fonts.css';
 <meta name="description" content={description} />
 
 <link rel="canonical" href={canonicalURL} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={absoluteOgImage} />
+<meta property="og:locale" content="pt_BR" />
+
+<!-- Twitter / X -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content={canonicalURL} />
+<meta property="twitter:title" content={title} />
+<meta property="twitter:description" content={description} />
+<meta property="twitter:image" content={absoluteOgImage} />
 
 <!-- Favicon -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
