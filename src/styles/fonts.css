@@ -338,3 +338,10 @@ ul.lista-compacta {
   padding-left: 1.5rem; /* Garante que o bullet apareça alinhado */
   list-style-type: disc; /* Garante que o ponto seja o padrão */
 }
+
+.imagem-artigo img {
+  max-width: 870px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
