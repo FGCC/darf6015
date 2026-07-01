@@ -350,9 +350,11 @@ ul.lista-compacta {
 }
 
 figure img {
-  max-width: 800px;
+  margin: 0;
+}
+
+figure img {
   width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto;
 }
