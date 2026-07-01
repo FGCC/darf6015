@@ -339,8 +339,11 @@ ul.lista-compacta {
   list-style-type: disc; /* Garante que o ponto seja o padrão */
 }
 
+.imagem-artigo {
+  margin: 0;
+}
+
 .imagem-artigo img {
-  max-width: 836px;
   width: 100%;
   height: auto;
   display: block;
