@@ -5,3 +5,24 @@
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   Content-Security-Policy: default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https: blob:; font-src 'self' data: https:; connect-src 'self' https: wss:; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self' https:;
+
+# Abaixo, as regras de cache adicionadas ao seu arquivo:
+
+/*.css
+  Cache-Control: public, max-age=86400
+
+/*.js
+  Cache-Control: public, max-age=86400
+
+/*.jpg
+/*.jpeg
+/*.png
+/*.webp
+/*.svg
+/*.gif
+  Cache-Control: public, max-age=2592000
+
+/*.woff
+/*.woff2
+/*.ttf
+  Cache-Control: public, max-age=31536000, immutable
