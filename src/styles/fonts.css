@@ -345,16 +345,20 @@ ul.lista-compacta {
 
 .imagem-artigo img {
   width: 100%;
+  max-width: 836px;
   height: auto;
   display: block;
+  margin: 0 auto;
 }
 
-figure img {
+.figure-artigo {
   margin: 0;
 }
 
-figure img {
-  width: 100%;
+.figure-artigo img {
+  max-width: 100%;
+  max-width: 800px;
   height: auto;
   display: block;
+  margin: 0 auto;
 }
