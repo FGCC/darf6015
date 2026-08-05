@@ -413,15 +413,3 @@ ul.lista-compacta {
   text-decoration: underline;
   color: #1d4ed8;
 }
-
-/* No computador, garante que o details fique sempre aberto e visível */
-.table-of-contents details {
-  display: block;
-}
-
-/* Apenas no celular (telas menores que 768px), se ele não tiver o open, esconde o conteúdo */
-@media (max-width: 767px) {
-  .table-of-contents details:not([open]) > *:not(summary) {
-    display: none;
-  }
-}
