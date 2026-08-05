@@ -362,3 +362,15 @@ ul.lista-compacta {
   display: block;
   margin: 0 auto;
 }
+
+.table-of-contents ul ul {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  padding-left: 1rem;
+  list-style-type: circle; /* Deixa o marcador interno diferente para diferenciar */
+}
+
+.table-of-contents ul ul a {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
