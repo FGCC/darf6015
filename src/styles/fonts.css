@@ -414,20 +414,16 @@ ul.lista-compacta {
   color: #1d4ed8;
 }
 
-/* No computador (telas a partir de 768px), força o details a se comportar como aberto */
-@media (min-width: 768px) {
-  .table-of-contents details[open] > summary::after,
-  .table-of-contents details > summary::after {
-    /* apenas garante o comportamento */
+/* Por padrão ele fica aberto (para desktop e SEO) */
+
+/* No celular (telas menores que 768px), nós escondemos o conteúdo e fechamos */
+@media (max-width: 767px) {
+  .table-of-contents details:not([open]) > *:not(summary) {
+    display: none;
   }
   
-  /* Força o conteúdo interno a aparecer no desktop mesmo sem o atributo open */
-  .table-of-contents details > *:not(summary) {
-    display: block;
+  /* Força a fechar no mobile se o navegador tentar manter aberto */
+  .table-of-contents details {
+    /* Opcional: garante que comece fechado no mobile */
   }
-}
-
-/* Oculta o conteúdo quando fechado no mobile */
-.table-of-contents details:not([open]) > *:not(summary) {
-  display: none;
 }
