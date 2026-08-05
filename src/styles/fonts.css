@@ -414,16 +414,19 @@ ul.lista-compacta {
   color: #1d4ed8;
 }
 
-/* Por padrão ele fica aberto (para desktop e SEO) */
+/* 1. Comportamento padrão para dispositivos móveis: esconde o conteúdo interno */
+.table-of-contents details > *:not(summary) {
+  display: none;
+}
 
-/* No celular (telas menores que 768px), nós escondemos o conteúdo e fechamos */
-@media (max-width: 767px) {
-  .table-of-contents details:not([open]) > *:not(summary) {
-    display: none;
-  }
-  
-  /* Força a fechar no mobile se o navegador tentar manter aberto */
-  .table-of-contents details {
-    /* Opcional: garante que comece fechado no mobile */
+/* 2. Se o usuário clicar para abrir no celular, o conteúdo aparece */
+.table-of-contents details[open] > *:not(summary) {
+  display: block;
+}
+
+/* 3. No computador (768px ou mais), força o conteúdo a ficar visível independentemente do atributo */
+@media (min-width: 768px) {
+  .table-of-contents details > *:not(summary) {
+    display: block !important;
   }
 }
