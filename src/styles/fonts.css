@@ -414,12 +414,12 @@ ul.lista-compacta {
   color: #1d4ed8;
 }
 
-/* 1. Por padrão (desktop), o sumário fica sempre visível e ignoramos o comportamento fechado */
-.table-of-contents details > *:not(summary) {
+/* No computador, garante que o details fique sempre aberto e visível */
+.table-of-contents details {
   display: block;
 }
 
-/* 2. Apenas no celular (telas menores que 768px), o sumário começa fechado e oculta os itens */
+/* Apenas no celular (telas menores que 768px), se ele não tiver o open, esconde o conteúdo */
 @media (max-width: 767px) {
   .table-of-contents details:not([open]) > *:not(summary) {
     display: none;
