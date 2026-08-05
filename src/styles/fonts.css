@@ -414,19 +414,14 @@ ul.lista-compacta {
   color: #1d4ed8;
 }
 
-/* 1. Comportamento padrão para dispositivos móveis: esconde o conteúdo interno */
+/* 1. Por padrão (desktop), o sumário fica sempre visível e ignoramos o comportamento fechado */
 .table-of-contents details > *:not(summary) {
-  display: none;
-}
-
-/* 2. Se o usuário clicar para abrir no celular, o conteúdo aparece */
-.table-of-contents details[open] > *:not(summary) {
   display: block;
 }
 
-/* 3. No computador (768px ou mais), força o conteúdo a ficar visível independentemente do atributo */
-@media (min-width: 768px) {
-  .table-of-contents details > *:not(summary) {
-    display: block !important;
+/* 2. Apenas no celular (telas menores que 768px), o sumário começa fechado e oculta os itens */
+@media (max-width: 767px) {
+  .table-of-contents details:not([open]) > *:not(summary) {
+    display: none;
   }
 }
