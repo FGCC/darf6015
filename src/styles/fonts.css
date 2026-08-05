@@ -413,3 +413,9 @@ ul.lista-compacta {
   text-decoration: underline;
   color: #1d4ed8;
 }
+
+@media (max-width: 768px) {
+  .table-of-contents, .toc-mobile {
+    display: none;
+  }
+}
