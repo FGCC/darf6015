@@ -73,7 +73,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   <h1>IR Venda de Ações na B3: Controle de DARF Day Trade e Swing Trade</h1>
 
 <nav class="table-of-contents" aria-label="Índice da página">
-  <details open>
+  <details>
     <summary><strong>Neste artigo:</strong> (Clique para recolher/expandir)</summary>
     <ul>
       <li><a href="#como-calcular-ir-acoes">Como calcular o IR das operações com ações</a></li>
@@ -95,17 +95,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </ul>
   </details>
 </nav>
-
-<script>
-  // Se a tela for maior que 768px (Desktop), abre o sumário automaticamente. 
-  // No celular, ele continua fechado por padrão.
-  if (window.innerWidth >= 768) {
-    const details = document.querySelector('.table-of-contents details');
-    if (details) {
-      details.setAttribute('open', '');
-    }
-  }
-</script>
 
 <section aria-labelledby="intro-titulo">
     <h2 id="intro-titulo" class="sr-only">Introdução e Planilha para apurar IR na bolsa de valores</h2>

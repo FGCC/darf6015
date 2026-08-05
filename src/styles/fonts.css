@@ -413,3 +413,21 @@ ul.lista-compacta {
   text-decoration: underline;
   color: #1d4ed8;
 }
+
+/* No computador (telas a partir de 768px), força o details a se comportar como aberto */
+@media (min-width: 768px) {
+  .table-of-contents details[open] > summary::after,
+  .table-of-contents details > summary::after {
+    /* apenas garante o comportamento */
+  }
+  
+  /* Força o conteúdo interno a aparecer no desktop mesmo sem o atributo open */
+  .table-of-contents details > *:not(summary) {
+    display: block;
+  }
+}
+
+/* Oculta o conteúdo quando fechado no mobile */
+.table-of-contents details:not([open]) > *:not(summary) {
+  display: none;
+}
