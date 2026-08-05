@@ -413,20 +413,3 @@ ul.lista-compacta {
   text-decoration: underline;
   color: #1d4ed8;
 }
-
-/* Força o navegador a tratar cada título como um ponto de parada magnético absoluto */
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 90px; /* Altura do seu header fixo */
-}
-
-/* Garante que o container do artigo não colapse durante o redimensionamento */
-article {
-  contain: layout style; /* Impede que o navegador recalcule o layout inteiro da página de forma errada */
-}
-
-article h2, article h3 {
-  scroll-margin-top: 100px;
-  /* Força o renderizador a congelar a posição do título no fluxo de pintura */
-  overflow-anchor: none; 
-}
