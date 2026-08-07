@@ -95,35 +95,19 @@ Sim, é considerado um day trade. A Receita Federal considera como compra a 66,0
 
  
 
-Há isenção de IR para **operações normais com ações (somente ações)** caso o investidor tenha vendido até R$ 20 mil em ações no mês. É importante deixar claro que a isenção se aplica ao valor total das vendas de ações no mês, e não ao lucro obtido. Ou seja, se o investidor vender mais de R$ 20 mil em ações no mês, mesmo que o lucro tenha sido de apenas R$ 100, haverá incidência de 15% de imposto de renda sobre esse lucro.
+Há isenção de IR para **operações normais com ações (somente ações)** caso o investidor tenha vendido até R$ 20 mil em ações no mês. É importante deixar claro que a isenção se aplica ao valor total das vendas de ações no mês, e não ao lucro obtido. Ou seja, se o investidor vender mais de R$ 20 mil em ações no mês, mesmo que o lucro tenha sido de apenas R$ 100, haverá incidência de 15% de imposto de renda sobre esse lucro. Vale destacar que essa isenção é válida exclusivamente para **pessoas físicas** (pessoas jurídicas pagam IR independentemente do volume de vendas).
+
+ 
+
+As operações de day trade, as operações com opções e a venda de Fundos Imobiliários (FIIs) não entram no cálculo do limite de R$ 20 mil, pois possuem regras próprias e não afetam o teto de isenção das ações. Da mesma forma, operações com ouro no mercado à vista possuem limites de isenção separados e não devem ser somadas às ações.
+
+ 
+
+O cálculo do limite de R$ 20 mil deve ser feito **por CPF**, somando obrigatoriamente as vendas de ações realizadas em **todas as corretoras** que você utilizar no mesmo mês — ou seja, operar em mais de uma corretora não multiplica o limite de isenção. Por outro lado, caso você possua um lote valorizado (por exemplo, comprou R$ 20 mil que subiram para R$ 45 mil), você pode realizar vendas fracionadas abaixo de R$ 20 mil em cada mês (como vender R$ 15 mil mensais) e continuará totalmente isento de IR em cada uma dessas operações.
 
  
 
 As operações de day trade e as operações com opções não entram no cálculo do limite de R$ 20 mil em vendas de ações no mês usado para verificar a isenção de Imposto de Renda. Além disso, essas operações não possuem isenção, sendo sempre tributadas.
-
- 
-
-### Dúvidas frequentes sobre a isenção de R$ 20 mil de ações
-
-  **As vendas de fundos imobiliários afetam o limite de isenção para vendas até R$ 20 mil de ações?**  
-
-As vendas de FIIs não afetam esse limite.
-
-  **As operações de compra e venda de ouro no mercado à vista BMF, isentas de tributação até 20k, devem ser somadas às operações do mercado à vista na B3 para determinar se o total de operações está abaixo dos 20k?**  
-
-Não, os limites devem ser somados de forma separada.
-
-  **Estou mudando de corretora e por algum tempo estarei simultaneamente em duas… Se eu vender R$ 10.000,00 em uma corretora e R$ 12.000,00 em outra, fico isento, ou devo somar o total vendido em ambas?**  
-
-Não fica isento. O IR deve ser apurado por CPF. Deve somar as vendas de ações de todas as corretoras para verificar se está dentro do limite de isenção.
-
-  **Comprei 20 mil reais de uma ação e estou agora com 45 mil. Se eu vender 15 mil em cada mês, pago imposto? A venda de cada mês não passará de 20 mil.**  
-
-Se fizer apenas essa venda em cada mês, ficará totalmente isento de IR.
-
-  **A isenção de 20000 reais no mês para venda de ações também se aplica à pessoa jurídica?**  
-
-Essa isenção só é válida para pessoa física, para pessoa jurídica há incidência de IR independente do total de vendas de ações realizadas no mês.
 
  
 
@@ -285,28 +269,12 @@ Mesmo que você opere pouco, esteja com prejuízo acumulado, apenas compre açõ
 ## Declarando ações no Imposto de Renda 2026
 
  
- - **Se você apenas comprou ações e não vendeu:** independente de quantas, deve declará-las na aba Bens e Direitos – Grupo 03 "Participações Societárias" - Código "01 - Ações", com o preço médio de aquisição da ação, data de compra, quantidade e nome + CNPJ da empresa emissora do papel. No campo CNPJ, insira o da empresa. Marcar "Sim" em "Negociados em bolsa?" e escrever o ticker do ativo. Em 31/12 você deve inserir o custo total de aquisição (considerando corretagens e taxas).
+ - **Se você apenas comprou ações e não vendeu:** independente de quantas, deve declará-las na aba Bens e Direitos – Grupo 03 "Participações Societárias" - Código "01 - Ações", com o preço médio de aquisição da ação, data de compra, quantidade e nome + CNPJ da empresa emissora do papel. No campo CNPJ, insira o da empresa. Marcar "Sim" em "Negociados em bolsa?" e escrever o ticker do ativo. Em 31/12 você deve inserir o custo total de aquisição (considerando corretagens e taxas). **No caso de grupamento ou desdobramento de ações:** para atualizar os valores de compra na ficha de Bens e Direitos, basta ajustar proporcionalmente a quantidade e o preço médio (multiplicando ou dividindo conforme o evento), mantendo o custo total de aquisição inalterado.
  - **Saldo na corretora:** Não esqueça de declarar o saldo disponível na conta da corretora. Este dado é fornecido no informe de rendimentos enviado pela corretora. Você deve colocar na ficha "Bens e Direitos" e utilizar o Grupo 06 "Depósito à Vista e Numerário " - Código "99 - Outros depósitos à vista". Em CNPJ, insira o da corretora.
- - **Prejuízos:** Se teve prejuízo, não deixe de declarar, caso contrário você não conseguirá usá-lo para abater o imposto de lucros futuros. Todos os resultados mensais (lucros e prejuízos) obtidos com as operações devem ser incluídos na ficha “Renda Variável - Operações Comuns / Day trade”.
- - **Isenção de R$ 20 mil:** Os lucros de operações comuns com ações obtidos na condição de isenção devem ser informados apenas na ficha de Rendimentos Isentos e Não Tributáveis – Código 20 “Ganhos Líquidos em operações no mercado à vista de ações negociadas em bolsas de valores nas alienações realizadas até R$ 20.000,00, em cada mês, para o conjunto de ações”.
+ - **Prejuízos:** Se você teve prejuízo, não deixe de declará-lo; caso contrário, perderá o direito de utilizá-lo para abater impostos de lucros futuros. Todos os resultados mensais (lucros e prejuízos) das suas operações devem ser informados na ficha **“Renda Variável - Operações Comuns / Day Trade”**. Lembre-se de lançar ali tanto os meses que fecharam com prejuízo quanto os meses que tiveram lucro com vendas totais superiores a R$ 20 mil.
+ - **Isenção de R$ 20 mil:** Os lucros de operações comuns com ações obtidos na condição de isenção devem ser informados apenas na ficha de Rendimentos Isentos e Não Tributáveis – Código 20 “Ganhos Líquidos em operações no mercado à vista de ações negociadas em bolsas de valores nas alienações realizadas até R$ 20.000,00, em cada mês, para o conjunto de ações”. Caso você tenha obtido lucros isentos em múltiplos meses do ano, é permitido somar esses lucros e fazer um único registro consolidado na ficha.
  - **DARF pago:** Se algum DARF foi pago durante o ano, deve ser informado na ficha “Renda Variável - Operações Comuns / Day trade”, em "Consolidação do Mês", no campo "Imposto Pago" da aba do mês correspondente.
  - **Rendimentos:** Declare todos rendimentos como bonificações, dividendos e juros sobre capital próprio, recebidos durante o ano.
-
- 
-
-### Dúvidas frequentes sobre a declaração de imposto de renda de ações
-
-  **Em três meses do ano obtive ganhos líquidos na Bolsa de Valores com ações negociadas com valores abaixo de R$ 20.000,00 em cada mês. Devo lançar o lucro no campo 20 de Rendimentos Isentos e Não Tributáveis para cada mês individualmente? Ou posso somar os lucros dos três meses e fazer apenas um lançamento no campo 20, mesmo que esse lucro ultrapasse o valor de R$ 20.000,00 dos Rendimentos Isentos e Não tributáveis?**  
-
-Sim, você pode somar os lucros e fazer um único registro na ficha "Rendimentos Isentos e Não Tributáveis" (Código 20). Mas atenção ao detalhe crucial: a isenção é para quem vende até 20 mil em ações no mês, e não para quem lucra até 20 mil. Por exemplo, se você vender mais de 20 mil e lucrar 100 reais, terá que pagar IR sobre os 100 reais. E a isenção é válida apenas para operações normais com ações.
-
-  **Na declaração de IR, na aba "Renda Variável" eu lanço somente as operações superiores a 20 mil as quais não são isentas de IR?**  
-
-Na ficha de Renda Variável lança os meses que fecharam com lucro e mais de R$ 20 mil em vendas de ações; e os meses que terminaram com prejuízo.
-
-  **Como faço para atualizar os valores de compra de um papel que agrupou na ficha de Bens e Direitos?**  
-
-Agora você apenas precisa dividir a quantidade e multiplicar o preço médio na mesma proporção do grupamento. O custo total de aquisição fica o mesmo, o que muda é a quantidade e o preço médio.
 
  
 
