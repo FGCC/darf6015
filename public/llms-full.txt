@@ -145,23 +145,11 @@ Opções exigem cuidado especial em relação ao vencimento, exercício ou encer
 
  
 
-Os prejuízos devem ser utilizados para abater lucros ocorridos no mesmo mês de apuração ou em operações de meses subsequentes do mesmo tipo de operação (normal ou day trade). Caso tenha imposto a pagar pendente de algum mês, não poderá usar um prejuízo futuro para compensá-lo. Outro ponto muito importante é que os prejuízos devem ser utilizados para abater do lucro, e não do valor do DARF a pagar. Por exemplo, se você possui um prejuízo acumulado de R$ 1 mil de meses anteriores, e no mês atual ganha R$ 3 mil, você irá calcular o DARF sobre lucro de R$ 2 mil.
+Os prejuízos devem ser utilizados para abater lucros ocorridos no mesmo mês de apuração ou em operações de meses subsequentes do mesmo tipo de operação (normal ou day trade). Caso tenha imposto a pagar pendente de algum mês, não poderá usar um prejuízo futuro para compensá-lo. Outro ponto muito importante é que os prejuízos devem ser utilizados para abater do lucro, e não do valor do DARF a pagar — por exemplo, se você possui um prejuízo acumulado de R$ 1 mil de meses anteriores, e no mês atual ganha R$ 3 mil, você irá calcular o IR sobre a base de R$ 2 mil.
 
  
 
-O investidor precisa estar antenado ao fato de só poder compensar prejuízos entre **operações de mesma espécie (normal com normal e day trade com day trade)**. Ou seja, é permitido compensar prejuízos entre operações normais de ações e operações normais de opções. E também entre operações day trade de ações e operações day trade de opções.
-
- 
-
-### Dúvidas sobre compensação de prejuízos na bolsa
-
-  **Tive um prejuízo em day trade no mês passado de R$50,00, no mês atual estou com um lucro líquido também em day trade de R$1200.00. Como abater esse valor do lucro atual para calcular o DARF?**  
-
-Você deverá pagar 20% sobre R$ 1.150,00 de lucro. O abatimento deve ser feito diretamente da sua base de cálculo, ou seja, antes de aplicar a taxa de 20%.
-
-  **Tive lucro com opções de 1000,00 reais, porém prejuízo em ações de 500,00 reais (Swing Trade), com vendas inferiores a R$ 20 mil dentro de um mesmo mês. Para o preenchimento do DARF, o IR (15%) deverá ser calculado sobre base R$ 1000 ou R$ 500?**  
-
-Deve ser calculado sobre R$ 500.
+O investidor precisa estar antenado ao fato de só poder compensar prejuízos entre operações de mesma espécie (normal com normal e day trade com day trade). Dentro dessa mesma modalidade, os resultados de ações, opções e contratos do mercado futuro (como mini-índice e mini-dólar) podem ser abatidos entre si. Ou seja, é permitido compensar prejuízos e lucros cruzados entre esses diferentes mercados no day trade, assim como ocorre de forma correspondente nas operações normais.
 
  
 
