@@ -189,7 +189,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 <ul>
     <li><strong>Operações Comuns (Normais):</strong> A compra e a venda de um mesmo ativo realizadas em dias diferentes.</li>
-    <li><strong>Operações Day Trade:</strong> Compra e venda de um mesmo ativo, realizadas no mesmo dia e na mesma corretora.</li>
+    <li><strong>Operações Day Trade:</strong> Compra e venda (ou venda e compra) de um mesmo ativo, realizadas no mesmo pregão e na mesma corretora. Vale lembrar que vender um ativo que você já tem em carteira e recomprá-lo no mesmo dia é considerado day trade.</li>
 </ul>
 
 <p>Dessa forma, obtém-se o <strong>resultado consolidado</strong> mensal para cada categoria.</p>
@@ -201,15 +201,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     
     <li><strong>Nas Operações Comuns:</strong> A lógica é a mesma. O resultado mensal é o <strong>total das operações</strong> encerradas no período. Sobre o lucro líquido, aplica-se a alíquota de <strong>15%</strong>. Se houver prejuízo, este poderá ser usado para compensar lucros da mesma categoria (operações comuns) nos meses seguintes.</li>
 </ul>
-
-<h3 id="duvida-comum-operacoes-day-trade">Regra de Day Trade: Venda e Recompra de Ativos</h3>
-
-<dl>
-  <dt><b>Tenho 500 ações de VALE (custo R$ 65,00) de dias anteriores. Hoje vendi por R$ 67,00 e recomprei por R$ 66,00 no mesmo pregão. Isso configura Day Trade ou Swing Trade?</b></dt>
-  <dd>
-    <p>Sim, é considerado um day trade. A Receita Federal considera como compra a 66,00 e venda a 67,00, resultando em um lucro de 500,00. No final desse pregão você continua com as mesmas 500 ações em carteira com preço médio de 65,00.</p>
-  </dd>
-</dl>
 
 </section>
 
@@ -669,7 +660,7 @@ O cálculo do limite de R$ 20 mil deve ser feito <strong>por CPF</strong>, soman
 <b>1️⃣ ISENÇÃO:</b> Ao contrário das ações, que possuem isenção de IR sobre o lucro das operações comuns para quem vende até R$ 20 mil no mês, os BDRs não possuem nenhuma isenção.
 </li>
   <li>
-<b>2️⃣ DIVIDENDOS:</b> Os dividendos dos BDRs são tributados conforme a tabela progressiva do imposto de renda, portanto é importante o investidor manter o controle dos dividendos recebidos através do <b>Carnê Leão Web</b>, que pode ser acessado no portal do <a href="https://cav.receita.fazenda.gov.br/autenticacao/login">e-cac da Receita Federal</a>. Para inserir os dividendos recebidos basta ir até “rendimentos”, clicar em “+ rendimento”, em Natureza selecione “Outros”, coloque a data do recebimento, marque que é um rendimento recebido do exterior, no campo “Histórico” escreva que se trata de dividendos recebidos de um BDR, informe o valor, e para concluir clique no botão “INCLUIR RENDIMENTO”. A alíquota do imposto varia de acordo as tabelas do imposto de renda. <a href="https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas">Tabelas do Imposto de Renda — Receita Federal (www.gov.br)</a>
+<b>2️⃣ DIVIDENDOS:</b> Os dividendos dos BDRs são tributados conforme a tabela progressiva do imposto de renda, portanto é importante o investidor manter o controle dos dividendos recebidos através do <b>Carnê Leão Web</b>, que pode ser acessado no portal do <a href="https://cav.receita.fazenda.gov.br/autenticacao/login">e-cac da Receita Federal</a>. Para inserir os dividendos recebidos basta ir até “rendimentos”, clicar em “+ rendimento”, em Natureza selecione “Outros”, coloque a data do recebimento, marque que é um rendimento recebido do exterior, no campo “Histórico” escreva que se trata de dividendos recebidos de um BDR, informe o valor, e para concluir clique no botão “INCLUIR RENDIMENTO”. A alíquota do imposto varia de acordo as <a href="https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas">Tabelas do Imposto de Renda — Receita Federal (www.gov.br)</a> .
 
 <p>O DARF para pagamento estará disponível no menu “Demonstrativo” do Carnê Leão Web.</p>
 </li>
