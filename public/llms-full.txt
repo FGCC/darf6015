@@ -67,7 +67,7 @@ Após calcular o lucro ou prejuízo líquido das operações realizadas no mês,
 
  
  - **Operações Comuns (Normais):** A compra e a venda de um mesmo ativo realizadas em dias diferentes.
- - **Operações Day Trade:** Compra e venda de um mesmo ativo, realizadas no mesmo dia e na mesma corretora.
+ - **Operações Day Trade:** Compra e venda (ou venda e compra) de um mesmo ativo, realizadas no mesmo pregão e na mesma corretora. Vale lembrar que vender um ativo que você já tem em carteira e recomprá-lo no mesmo dia é considerado day trade.
  
  
 
@@ -80,14 +80,6 @@ Dessa forma, obtém-se o **resultado consolidado** mensal para cada categoria.
  
  - **No Day Trade:** Se você realizou três operações no mês, o resultado final será a **soma de todos os resultados** (lucros e prejuízos) dessas operações. Havendo lucro no total do mês, a alíquota de IR é de **20%**. Em caso de prejuízo, o valor poderá ser utilizado para compensar lucros de Day Trade em meses seguintes.
  - **Nas Operações Comuns:** A lógica é a mesma. O resultado mensal é o **total das operações** encerradas no período. Sobre o lucro líquido, aplica-se a alíquota de **15%**. Se houver prejuízo, este poderá ser usado para compensar lucros da mesma categoria (operações comuns) nos meses seguintes.
- 
- 
-
-### Regra de Day Trade: Venda e Recompra de Ativos
-
-  **Tenho 500 ações de VALE (custo R$ 65,00) de dias anteriores. Hoje vendi por R$ 67,00 e recomprei por R$ 66,00 no mesmo pregão. Isso configura Day Trade ou Swing Trade?**  
-
-Sim, é considerado um day trade. A Receita Federal considera como compra a 66,00 e venda a 67,00, resultando em um lucro de 500,00. No final desse pregão você continua com as mesmas 500 ações em carteira com preço médio de 65,00.
 
  
 
@@ -339,7 +331,7 @@ Os dividendos e os juros sobre capital próprio dispensam a necessidade de um ac
 
  
 
-### Juros sobre capital próprio
+### Declarar Juros sobre capital próprio Creditados e Pagos
 
  
 
@@ -347,7 +339,11 @@ Informe os JSCP utilizando código **"10 - Juros sobre capital próprio"** da fi
 
  
 
-Se a efetivação do pagamento dos juros sobre capital próprio não ocorreu no mesmo ano do anúncio (JSCP Declarados a Serem Pagos), será necessário também fazer um lançamento na ficha **“Bens e Direitos”**, da seguinte forma:
+### Declarar Juros sobre capital próprio Creditados e Não Pagos
+
+ 
+
+Se a efetivação do pagamento dos juros sobre capital próprio não ocorreu no mesmo ano do anúncio (JSCP Declarados e Não Pagos), será necessário fazer o lançamento na ficha "Rendimentos sujeitos à Tributação Exclusiva / Definitiva" e também outro lançamento na ficha **“Bens e Direitos”**, da seguinte forma:
 
  
 
@@ -367,31 +363,17 @@ Quando de fato forem pagos, será necessário APENAS “zerar” esses juros na 
 
  
 
-### Dividendos
+### Declarar Dividendos de Ações
 
  
 
-Informe código **"09 - Lucros e dividendos recebidos"** na ficha **“Rendimentos Isentos e Não Tributáveis”** de sua declaração anual. Coloque o nome e CNPJ da empresa pagadora e o valor, conforme informe de rendimentos enviado por ela.
+Informe código **"09 - Lucros e dividendos recebidos"** na ficha **“Rendimentos Isentos e Não Tributáveis”** de sua declaração anual. Coloque o nome e CNPJ da empresa pagadora e o valor, conforme informe de rendimentos enviado por ela. Ao contrário dos Juros sobre capital Próprio, os dividendos são declarados apenas no ano em que efetivamente foram pagos.
 
  
 
-### Dúvidas frequentes sobre declaração de dividendo e JSCP
+### Declarar Dividendos de Fundos Imobiliários
 
-  **No meu informe de rendimentos, no campo "Rendimentos sujeitos à tributação exclusiva" existem três colunas: declarados e pagos; declarados a serem pagos, e; total declarado. Ao declarar esse rendimento, devo declarar o total ou devo declarar só o que foi pago e o não pago fica preenchido somente na ficha de "Bens e direitos"?**  
-
-JSCP que já foi pago dentro do próprio ano em que foi anunciado, declara apenas em rendimentos sujeitos a tributação exclusiva/definitiva.
-
- Já aqueles JSCP que você tem o direito a receber, mas ainda não foram pagos, declara em rendimentos sujeitos a tributação exclusiva/definição + bens e direitos. E no ano que forem pagos apenas zera na ficha de bens e direitos.
-
-  **Os dividendos deliberados no ano de 2024 com pagamento previsto em 2025 devem ser lançados na renda isenta e em bens e direitos, como é feito o JSCP?**  
-
-Não, esse procedimento é só para JSCP. Os dividendos são declarados apenas no ano que de fato ocorre o pagamento (na ficha de rendimentos isentos e não tributáveis). É importante seguir exatamente o que está no informe de rendimentos do banco escriturador do ativo em questão.
-
-  **Posso somar todos os valores dos JSCP e DIVIDENDOS, e fazer um lançamento ou devo declarar para cada ação (AMBEV, ITAUSA, FLEURY) em separado tanto no campo rendimento isentos como no rendimento sujeito a tributação exclusiva?**  
-
-Deve declarar os proventos de cada ação em separado, pois são fontes pagadoras diferentes.
-
-  **Onde declarar dividendos de fundos imobiliários?**  
+ 
 
 Os rendimentos de fundos imobiliários devem ser declarados na ficha de Rendimentos Isentos e Não tributáveis, código "99 - Outros"
 
@@ -422,7 +404,7 @@ Existem apenas duas diferenças se comparado com ações:
 
  
  - **1️⃣ ISENÇÃO:** Ao contrário das ações, que possuem isenção de IR sobre o lucro das operações comuns para quem vende até R$ 20 mil no mês, os BDRs não possuem nenhuma isenção.
- - **2️⃣ DIVIDENDOS:** Os dividendos dos BDRs são tributados conforme a tabela progressiva do imposto de renda, portanto é importante o investidor manter o controle dos dividendos recebidos através do **Carnê Leão Web**, que pode ser acessado no portal do [e-cac da Receita Federal](https://cav.receita.fazenda.gov.br/autenticacao/login). Para inserir os dividendos recebidos basta ir até “rendimentos”, clicar em “+ rendimento”, em Natureza selecione “Outros”, coloque a data do recebimento, marque que é um rendimento recebido do exterior, no campo “Histórico” escreva que se trata de dividendos recebidos de um BDR, informe o valor, e para concluir clique no botão “INCLUIR RENDIMENTO”. A alíquota do imposto varia de acordo as tabelas do imposto de renda. [Tabelas do Imposto de Renda — Receita Federal (www.gov.br)](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas) 
+ - **2️⃣ DIVIDENDOS:** Os dividendos dos BDRs são tributados conforme a [tabela progressiva do imposto de renda](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas), portanto é importante o investidor manter o controle dos dividendos recebidos através do **Carnê Leão Web**, que pode ser acessado no portal do [e-cac da Receita Federal](https://cav.receita.fazenda.gov.br/autenticacao/login). Para inserir os dividendos recebidos basta ir até “rendimentos”, clicar em “+ rendimento”, em Natureza selecione “Outros”, coloque a data do recebimento, marque que é um rendimento recebido do exterior, no campo “Histórico” escreva que se trata de dividendos recebidos de um BDR, informe o valor, e para concluir clique no botão “INCLUIR RENDIMENTO”. 
 
 O DARF para pagamento estará disponível no menu “Demonstrativo” do Carnê Leão Web.
  
