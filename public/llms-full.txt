@@ -1,8 +1,8 @@
-# IR Venda de Ações na B3: Controle de DARF Day Trade e Swing Trade
+# Calculadora de Ações: Controle de IR e DARF Day Trade e Swing Trade
 
 > Operou na Bolsa e precisa pagar o DARF 6015? Aprenda como calcular seus ganhos líquidos, apurar o Imposto de Renda sobre ações e declarar corretamente para evitar a malha fina.
 
-# IR Venda de Ações na B3: Controle de DARF Day Trade e Swing Trade
+# Calculadora de Ações: Controle de IR e DARF Day Trade e Swing Trade
 
   
 
@@ -110,7 +110,7 @@ As operações de day trade e as operações com opções não entram no cálcul
 Opções exigem cuidado especial em relação ao vencimento, exercício ou encerramento da operação. O cálculo depende da forma como a operação foi concluída:
 
  
- - Se não houver encerramento do negócio ou exercício das opções (ou seja, as opções “virarem pó”), o valor do prêmio será o ganho do lançador (vendedor) e prejuízo para o titular (comprador), na data do vencimento da opção.
+ - Se as opções “virarem pó”, o valor do prêmio será o ganho do lançador (vendedor) e prejuízo para o titular (comprador), na data do vencimento da opção.
  - Se houver compra e venda das opções, o cálculo do lucro ou prejuízo fica idêntico ao de uma operação com ações, ou seja: **(preço venda - preço compra) * quantidade – taxas operacionais**. Será considerada uma operação normal se a compra e venda ocorrerem em dias diferentes e uma operação day trade se a compra e venda ocorrerem no mesmo dia.
  
  
@@ -228,7 +228,7 @@ Sim, você pode pagar o DARF em atraso a qualquer momento. No entanto, o valor t
 
  
 
-Mesmo que você opere pouco, esteja com prejuízo acumulado, apenas compre ações, opere na faixa de isenção em operações normais ou tenha parado de operar, deve declarar toda essa situação na declaração anual do imposto de renda. É importante que os anos em que você operou sejam corretamente calculados e declarados, pois a Receita Federal pode, em até 5 anos, cobrar o imposto dessas operações com multa e juros.
+Se você realizou operações na bolsa de valores, é importante calcular e declarar corretamente, pois a Receita Federal pode cobrar o imposto dessas operações com multa e juros em até 5 anos.
 
  
 
@@ -331,7 +331,7 @@ Os dividendos e os juros sobre capital próprio dispensam a necessidade de um ac
 
  
 
-### Declarar Juros sobre capital próprio Creditados e Pagos
+### Declarar Juros sobre Capital Próprio Creditados e Pagos
 
  
 
@@ -339,7 +339,7 @@ Informe os JSCP utilizando código **"10 - Juros sobre capital próprio"** da fi
 
  
 
-### Declarar Juros sobre capital próprio Creditados e Não Pagos
+### Declarar Juros sobre Capital Próprio Creditados e Não Pagos
 
  
 
@@ -391,7 +391,7 @@ A Lei nº 15.270, de 26 de novembro de 2025, determina que, a partir de 2026, ha
 
  
 
-O procedimento para [declarar BDRs no imposto de renda anual](https://borainvestir.b3.com.br/noticias/imposto-de-renda/renda-variavel-imposto-de-renda/como-declarar-bdrs-no-imposto-de-renda-2026-veja-guia-completo-para-nao-cometer-erros/) é quase idêntico ao procedimento para declarar ações. Antes de tudo, destacamos que é necessário sempre manter um controle das operações realizadas com BDRs, pois o imposto de renda variável deve ser apurado em períodos mensais. As regras para apuração do imposto na venda de BDRs são muito semelhantes a aquelas utilizadas para as ações:
+As regras para apuração do imposto na venda de BDRs são muito semelhantes a aquelas utilizadas para as ações:
 
  
  - Alíquota de 15% para as operações comuns (compra e venda em dias diferentes) e 20% para as operações day trade (compra e venda no mesmo dia);
@@ -403,7 +403,7 @@ O procedimento para [declarar BDRs no imposto de renda anual](https://borainvest
 Existem apenas duas diferenças se comparado com ações:
 
  
- - **1️⃣ ISENÇÃO:** Ao contrário das ações, que possuem isenção de IR sobre o lucro das operações comuns para quem vende até R$ 20 mil no mês, os BDRs não possuem nenhuma isenção.
+ - **1️⃣ ISENÇÃO:** Ao contrário das ações, os BDRs não possuem nenhuma isenção de IR sobre o lucro das operações comuns para quem vende até R$ 20 mil no mês.
  - **2️⃣ DIVIDENDOS:** Os dividendos dos BDRs são tributados conforme a [tabela progressiva do imposto de renda](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas), portanto é importante o investidor manter o controle dos dividendos recebidos através do **Carnê Leão Web**, que pode ser acessado no portal do [e-cac da Receita Federal](https://cav.receita.fazenda.gov.br/autenticacao/login). Para inserir os dividendos recebidos basta ir até “rendimentos”, clicar em “+ rendimento”, em Natureza selecione “Outros”, coloque a data do recebimento, marque que é um rendimento recebido do exterior, no campo “Histórico” escreva que se trata de dividendos recebidos de um BDR, informe o valor, e para concluir clique no botão “INCLUIR RENDIMENTO”. 
 
 O DARF para pagamento estará disponível no menu “Demonstrativo” do Carnê Leão Web.
