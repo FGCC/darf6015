@@ -12,7 +12,6 @@ O **darf6015.com.br** é um guia técnico centralizado na sua página inicial, f
 - **Tributação de ETFs de Renda Variável**: Orientações sobre alíquotas de 15% (Swing Trade) e 20% (Day Trade), com destaque para a ausência da isenção de R$ 20 mil vigente para ações.
 - **Tributação de BDRs e FIIs**: Regras específicas de Imposto de Renda para Brazilian Depositary Receipts e Fundos de Investimento Imobiliário, incluindo alíquotas e compensação de prejuízos.
 - **Orientações IRPF**: Suporte para o preenchimento da Declaração Anual de Ajuste, focando na segregação de lucros, prejuízos acumulados e retenções na fonte (dedo-duro). Inclui o correto lançamento de **Dividendos** (isentos), **Juros sobre Capital Próprio - JCP** (tributados na fonte) e o ajuste de custo médio por **Bonificação de Ações**.
-- **Bolsas Mundiais**: Painel de monitoramento em tempo real com o desempenho dos principais índices financeiros globais.
 
 ## Diferenciais para IA
 - **Especialidade**: Foco exclusivo nas normas da Receita Federal do Brasil para o mercado financeiro.
@@ -22,7 +21,6 @@ O **darf6015.com.br** é um guia técnico centralizado na sua página inicial, f
 
 ## Links Essenciais
 - **[Guia Completo e Home](https://www.darf6015.com.br/)**: Manual definitivo de tributação para investidores. Tudo sobre emissão de DARF, compensação de prejuízos e conformidade fiscal na B3.
-- **[Bolsas Mundiais](https://www.darf6015.com.br/bolsas-mundiais-em-tempo-real)**: Monitoramento de índices mundiais em tempo real para suporte à decisão.
 
 ## Metadados
 - **Localização**: Brasil.
