@@ -1,0 +1,475 @@
+# Calculadora de Ações: Controle de IR e DARF Day Trade e Swing Trade
+
+> Operou na Bolsa e precisa pagar o DARF 6015? Aprenda como calcular seus ganhos líquidos, apurar o Imposto de Renda sobre ações e declarar corretamente para evitar a malha fina.
+
+# Calculadora de Ações: Controle de IR e DARF Day Trade e Swing Trade
+
+  
+
+## Introdução e Planilha para apurar IR na bolsa de valores
+
+ 
+
+Gerar a DARF de Day Trade e Swing Trade na B3 não precisa ser uma dor de cabeça. Automatize todo o cálculo do seu imposto de renda na bolsa de valores, compense prejuízos passados de forma simples e fique 100% em dia com a Receita Federal — sem risco de multas ou erros manuais.
+
+ 
+
+**O que você consegue controlar:**
+
+ 
+ - **Ações, Opções, BDRs e ETFs**.
+ - **Fundos Imobiliários (FIIs)**.
+ - **Mercado Futuro:** Contratos de Dólar e Índice.
+ - **Operações:** Comuns e Day Trade.
+ 
+ 
+
+**Vantagens da planilha:**
+
+ 
+ - **Importação automática** de notas de corretagem em PDF.
+ - **Cálculo automático** de preço médio e lucro/prejuízo.
+ - **Compensação de prejuízos** de meses e anos anteriores.
+ - **Relatório completo** para a Declaração de Ajuste Anual.
+ - **Aulas em vídeo** e acesso a uma comunidade de suporte.
+ - **Atualização constante:** A planilha e o material passam por melhorias contínuas e estão sempre sendo atualizados.
+ 
+ [→ CONHEÇA A PLANILHA COMPLETA](/conhecer-planilha)
+
+ 
+
+## Como calcular o lucro ou prejuízo na venda de ações?
+
+ 
+
+Para calcular o lucro ou prejuízo líquido de suas operações na bolsa, você deve ter o preço de venda, o preço médio de compra e as taxas operacionais envolvidas nas transações.
+
+ 
+
+É possível consultar as taxas operacionais nas **notas de corretagem**. As principais são: corretagem, emolumentos, taxa de liquidação, taxa de registro e ISS. Quando a nota de corretagem possuir mais de uma operação, as taxas devem ser rateadas proporcionalmente entre as operações.
+
+ 
+
+Em operações de venda a descoberto, o custo do **aluguel de ações** também pode ser utilizado para reduzir a base de cálculo do IR.
+
+ 
+
+**Fórmula para calcular o lucro ou prejuízo líquido:**
+ [(Preço de Venda - Preço Médio de Compra) x Quantidade] - Taxas Operacionais
+
+ 
+
+## Como calcular o IR das operações com ações
+
+ 
+
+Após calcular o lucro ou prejuízo líquido das operações realizadas no mês, o investidor deve separá-las por modalidade:
+
+ 
+ - **Operações Comuns (Normais):** A compra e a venda de um mesmo ativo realizadas em dias diferentes.
+ - **Operações Day Trade:** Compra e venda (ou venda e compra) de um mesmo ativo, realizadas no mesmo pregão e na mesma corretora. Vale lembrar que vender um ativo que você já tem em carteira e recomprá-lo no mesmo dia é considerado day trade.
+ 
+ 
+
+Dessa forma, obtém-se o **resultado consolidado** mensal para cada categoria.
+
+ 
+
+**Exemplos Práticos:**
+
+ 
+ - **No Day Trade:** Se você realizou três operações no mês, o resultado final será a **soma de todos os resultados** (lucros e prejuízos) dessas operações. Havendo lucro no total do mês, a alíquota de IR é de **20%**. Em caso de prejuízo, o valor poderá ser utilizado para compensar lucros de Day Trade em meses seguintes.
+ - **Nas Operações Comuns:** A lógica é a mesma. O resultado mensal é o **total das operações** encerradas no período. Sobre o lucro líquido, aplica-se a alíquota de **15%**. Se houver prejuízo, este poderá ser usado para compensar lucros da mesma categoria (operações comuns) nos meses seguintes.
+
+ 
+
+## Isenção IR ações 20 mil (pessoa física)
+
+ 
+
+Há isenção de IR para **operações normais com ações** caso o investidor tenha vendido até R$ 20 mil em ações no mês. É importante deixar claro que a isenção se aplica ao valor total das vendas de ações no mês, e não ao lucro obtido. Ou seja, se o investidor vender mais de R$ 20 mil em ações no mês, mesmo que o lucro tenha sido de apenas R$ 100, haverá incidência de 15% de imposto de renda sobre esse lucro. Vale destacar que essa isenção é válida exclusivamente para **pessoas físicas** (pessoas jurídicas pagam IR independentemente do volume de vendas).
+
+ 
+
+As operações de day trade, as operações com opções e a venda de Fundos Imobiliários (FIIs) não entram no cálculo do limite de R$ 20 mil, pois possuem regras próprias e não afetam o teto de isenção das ações. Além disso, essas operações não possuem isenção, sendo sempre tributadas.
+
+ 
+
+O cálculo do limite de R$ 20 mil deve ser feito **por CPF**, somando obrigatoriamente as vendas de ações realizadas em **todas as corretoras** que você utilizar no mesmo mês — ou seja, operar em mais de uma corretora não multiplica o limite de isenção. Por outro lado, caso você possua um lote valorizado (por exemplo, comprou R$ 20 mil que subiram para R$ 45 mil), você pode realizar vendas fracionadas abaixo de R$ 20 mil em cada mês (como vender R$ 15 mil mensais) e continuará totalmente isento de IR em cada uma dessas operações.
+
+ 
+
+## Como calcular o lucro ou prejuízo de Opções?
+
+ 
+
+Opções exigem cuidado especial em relação ao vencimento, exercício ou encerramento da operação. O cálculo depende da forma como a operação foi concluída:
+
+ 
+ - Se as opções “virarem pó”, o valor do prêmio será o ganho do lançador (vendedor) e prejuízo para o titular (comprador), na data do vencimento da opção.
+ - Se houver compra e venda das opções, o cálculo do lucro ou prejuízo fica idêntico ao de uma operação com ações, ou seja: **(preço venda - preço compra) * quantidade – taxas operacionais**. Será considerada uma operação normal se a compra e venda ocorrerem em dias diferentes e uma operação day trade se a compra e venda ocorrerem no mesmo dia.
+ 
+ 
+
+**Caso ocorra exercício de opções o cálculo muda:**
+
+ 
+ - **Titular da Opção de Venda:** O ganho líquido é a diferença positiva entre o preço de exercício do ativo e o seu custo de aquisição, que é o custo de aquisição do ativo + o valor do prêmio pago.
+ - **Lançador da Opção de Venda:** O ganho líquido é a diferença positiva entre o preço de venda à vista do ativo, na data do exercício, e o seu custo de aquisição (preço de exercício menos o valor do prêmio recebido). 
+
+ Caso a venda do ativo ocorra depois da data do exercício, o ganho líquido é a diferença positiva entre o valor recebido pela venda do ativo e o custo médio de aquisição, apurado conforme estabelecido para o mercado à vista.
+ - **Titular da Opção de Compra:** O ganho líquido é a diferença positiva entre o valor de venda à vista do ativo, na data do exercício, e o seu custo de aquisição (preço de exercício + valor do prêmio pago). 
+
+ Caso a venda do ativo ocorra depois da data do exercício, o ganho líquido será a diferença positiva entre o valor recebido pela venda do ativo e o custo médio de aquisição, apurado conforme estabelecido para o mercado à vista.
+ - **Lançador da Opção de Compra:** O ganho líquido é a diferença positiva entre o preço de exercício do ativo, acrescido do valor do prêmio recebido, e o seu custo de aquisição.
+ 
+ 
+
+**🚨 O exercício da opção e a venda ou compra do ativo no mercado à vista no mesmo dia NÃO se caracteriza como day-trade.**
+
+ 
+
+## Como compensar prejuízos na bolsa de valores?
+
+ 
+
+Os prejuízos devem ser utilizados para abater lucros ocorridos no mesmo mês de apuração ou em operações de meses subsequentes do mesmo tipo de operação (normal ou day trade). Caso tenha imposto a pagar pendente de algum mês, não poderá usar um prejuízo futuro para compensá-lo. Outro ponto muito importante é que os prejuízos devem ser utilizados para abater do lucro, e não do valor do DARF a pagar — por exemplo, se você possui um prejuízo acumulado de R$ 1 mil de meses anteriores, e no mês atual ganha R$ 3 mil, você irá calcular o IR sobre a base de R$ 2 mil.
+
+ 
+
+O investidor precisa estar antenado ao fato de só poder compensar prejuízos entre operações de mesma espécie (normal com normal e day trade com day trade). Dentro dessa mesma modalidade, os resultados de ações, opções e contratos do mercado futuro (como mini-índice e mini-dólar) podem ser abatidos entre si. Ou seja, é permitido compensar prejuízos e lucros cruzados entre esses diferentes mercados no day trade, assim como ocorre de forma correspondente nas operações normais.
+
+ 
+
+## Qual a alíquota do imposto de renda variável?
+
+ 
+
+A alíquota é de 15% para operações comuns e 20% para operações de day trade. Essas taxas são as mesmas para ações, opções e mercado futuro. A única exceção refere-se às ações, que contam com isenção em operações comuns caso o total das vendas no mês não ultrapasse R$ 20 mil. Após aplicar a alíquota sobre o lucro mensal, deve-se calcular o valor do DARF para o pagamento do tributo, conforme o seguinte exemplo de cálculo:
+
+  ![Como calcular o Imposto de Renda sobre ações na bolsa de valores](imagens/calculo-ir-bolsa.png)  
+
+Vale destacar também que a tributação dos FIIs difere daquela aplicada às ações: a alíquota de IR sobre o ganho de capital é fixada em 20%, independentemente do tipo de operação: normal ou day trade. Além disso, não há isenção para vendas abaixo de R$ 20 mil, e eventuais prejuízos só podem ser compensados com lucros da mesma categoria (outros FIIs).
+
+ 
+
+## Como preencher o DARF 6015?
+
+ 
+
+Emitido pelo Ministério da Fazenda e pela Secretaria da Receita Federal, o DARF (Documento de Arrecadação de Receitas Federais) é uma guia que serve para a cobrança de impostos administrados por esses órgãos.
+
+ 
+
+Para quem investe na bolsa de valores precisa estar atento à necessidade de recolhimento de imposto de renda mensalmente em caso de apuração de lucros. Após realizar o cálculo, uma maneira bem fácil de gerar o DARF para pagamento é através do SicalcWeb da Receita Federal.
+
+ 
+
+Cada tipo de imposto tem um código diferente que identifica qual tipo de arrecadação está sendo realizada. No caso do imposto sobre ganhos líquidos em renda variável, o **o DARF código 6015 serve para recolher IR sobre ganhos de day trade e operações comuns (swing trade)**. Embora as alíquotas de imposto sejam diferentes, o documento de arrecadação é unificado sob este código.
+
+ 
+
+## Passo a passo para gerar o DARF 6015
+
+ 
+ - Acesse o SicalcWeb e clique em **preenchimento rápido** 👉 [Sicalc (economia.gov.br)](https://sicalc.receita.economia.gov.br/sicalc/principal).
+ - Insira os dados solicitados como CPF, data de nascimento e faça o reCAPTCHA. Caso já tenha utilizado o SicalcWeb anteriormente, pode clicar em "selecionar contribuinte" para não ter que digitar as informações novamente.
+ - Em código ou nome da receita, utilize **"6015 - 01 - ME - a partir de 01/01/1995 - IRPF - Ganhos Líquidos em Operações em Bolsa - IRPF"**. Verifique se o seu domicílio (cidade) atual está correto. O campo "Observações a serem impressas no Darf" não é obrigatório, mas podem ser colocadas informações importantes para sua organização.
+ - Em período de apuração indique o mês que gerou o imposto a pagar no formato MM/AAAA. Por exemplo, se está pagando imposto sobre o lucro de dezembro de 2025, o período será 12/2025. **Deixe o campo Número de Referência em branco** e coloque o valor a ser pago em "Valor do Principal" (o valor deve ser calculado pelo próprio investidor). Caso o DARF esteja em atraso, coloque o valor original; o Sicalc calculará multa e juros posteriormente. Após preencher os dados, clique em CALCULAR.
+ - Por último, selecione o DARF e clique em EMITIR DARF para baixar o arquivo em PDF. A guia emitida tem vencimento no último dia útil do mês subsequente ao mês da apuração.
+ 
+ 
+
+🚨 O atraso no pagamento gera multa de 0,33% ao dia (limitada a 20%) e juros de mora (baseado na Taxa Selic do período). O investidor que precisar gerar um DARF com o valor reajustado pode utilizar o programa Sicalc, disponível no site da Receita Federal.
+
+ 
+
+### Dúvidas frequentes sobre a emissão de DARF 6015
+
+  **Gostaria de saber se posso gerar uma único DARF para pagar dentro daquele mês o somatório de todas os lucros com a venda de várias ações ou tenho que gerar um DARF para cada venda de ação individualmente?**  
+
+Gera um único DARF, considerando o resultado mensal. A apuração deve ser feita sempre levando em consideração o conjunto de operações finalizadas no mês. Aplica 15% sobre o resultado, se positivo, da soma de todos os lucros e prejuízos obtidos no mês com operações comuns. E 20% sobre o resultado das operações day trade.
+
+  **Em fevereiro tive lucro em venda de ações, opções e FII. Posso pagar tudo em um único DARF 6015 ou tem que ser separado?**  
+
+Sim, pode somar os três valores e pagar tudo em um único DARF 6015. Vale lembrar também que, quando for o caso, você pode utilizar prejuízo de ações para abater lucro de opções e vice-versa (desde que seja a mesma espécie de operação: comum ou day trade). Já prejuízo em FII só pode ser utilizado para abater lucro em FII.
+
+  **O imposto calculado sobre minhas operações deu um valor inferior a R$ 10,00. Não consigo gerar o DARF, como devo proceder?**  
+
+Quando o imposto apurado é inferior a R$ 10,00, você não deve emitir o DARF naquele momento. A Receita Federal não aceita pagamentos abaixo desse valor mínimo. Nesse caso, você deve acumular esse valor para o próximo mês em que houver imposto a pagar.
+
+  **Eu paguei o valor errado no DARF em questão, era para eu ter pago R$310,00 porém eu paguei R$161,00. Nesse caso como devo fazer?**  
+
+Se você pagou o DARF com valor a menor, deve gerar uma outro DARF com o valor da diferença que faltou pagar (no caso R$ 149,00). Não esqueça também de calcular a multa e juros sobre esse valor da diferença, caso já tenha passado a data de vencimento da mesma.
+
+  **No caso das opções, devo fazer a apuração do IR relativamente a cada operação individualizada ou devo somar o lucro de todas as operações encerradas no mês e fazer um DARF único sobre todo o lucro?**  
+
+O cálculo do IR sempre deve ser feito considerando o resultado do conjunto de operações encerradas no mês de apuração (separando é claro as operações comuns e operações day trade). No final vai gerar apenas um DARF para o mês de apuração.
+
+  **Estou realizando operações desde março de 2025, swing trade e alguns poucos foram day trade. Mas não emiti nenhum DARF. Como faço para regularizar?**  
+
+Você precisa apurar todos os meses que estão em atraso, verificar quais deveria ter pago IR, e posteriormente gerar DARF por DARF, corrigindo os valores (multa + juros) através do SICALC da Receita Federal. Depois faça os pagamentos, e estará tudo regularizado.
+
+  **Um DARF que está atrasado, pode ser pago antes da próxima Declaração Anual? Isso evita pendências com a Receita?**  
+
+Sim, você pode pagar o DARF em atraso a qualquer momento. No entanto, o valor terá o acréscimo de multa e juros de mora. Se o pagamento for realizado antes do envio da Declaração Anual, você evita pendências e inconsistências no processamento dos seus dados pela Receita Federal.
+
+  **Tenho uma conta em corretora em nome e CPF de minha filha, menor de idade. Como devo tratar as movimentações: separadamente ou em conjunto?**  
+
+É necessário ter controles de apuração separados. Os cálculos de lucros, prejuízos e o recolhimento de IR devem ser feitos individualmente para cada CPF, mesmo que ela seja sua dependente.
+
+ 
+
+## Devo declarar ações no imposto de renda 2026?
+
+ 
+
+Se você realizou operações na bolsa de valores, é importante calcular e declarar corretamente, pois a Receita Federal pode cobrar o imposto dessas operações com multa e juros em até 5 anos.
+
+ 
+
+**⚠️ Se você operou na bolsa durante o ano de 2025, fique atento se está enquadrado nas seguintes regras de obrigatoriedade para entrega do IRPF 2026:**
+
+ 
+ - Realizou vendas, com ou sem incidência de imposto, em bolsas de valores, de mercadorias, de futuros e assemelhadas cuja soma total foi acima de R$ 40 mil;
+ - Realizou qualquer venda em bolsa de valores com apuração de ganho líquido em operações day trade;
+ - Realizou vendas de ações em operações comuns na bolsa de valores com apuração de ganho líquido, cuja soma total das vendas em algum mês do ano anterior tenha sido acima de R$ 20 mil;
+ - Deseja compensar prejuízos de operações realizadas na bolsa de valores.
+ 
+ 
+
+[Imposto de Renda — Receita Federal](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/imposto-de-renda/dirpf)
+
+ 
+
+## Declarando ações no Imposto de Renda 2026
+
+ 
+ - **Se você apenas comprou ações e não vendeu:** Declare na aba Bens e Direitos – Grupo 03 "Participações Societárias" - Código "01 - Ações", com o preço médio de aquisição da ação, data de compra, quantidade, razão social e CNPJ da empresa emissora do papel. Marcar "Sim" em "Negociados em bolsa?" e escrever o ticker do ativo. Em 31/12 você deve inserir o custo total de aquisição (considerando corretagens e taxas). **No caso de grupamento ou desdobramento de ações:** para atualizar os valores de compra na ficha de Bens e Direitos, basta ajustar proporcionalmente a quantidade e o preço médio (multiplicando ou dividindo conforme o evento), mantendo o custo total de aquisição inalterado.
+ - **Saldo na corretora:** O saldo disponível na conta da corretora é fornecido no informe de rendimentos enviado por ela. Você deve colocar na ficha "Bens e Direitos" e utilizar o Grupo 06 "Depósito à Vista e Numerário " - Código "99 - Outros depósitos à vista". Em CNPJ, insira o da corretora.
+ - **Prejuízos:** Se você teve prejuízo, não deixe de declará-lo; caso contrário, perderá o direito de utilizá-lo para abater impostos de lucros futuros. Todos os resultados mensais (lucros e prejuízos) das suas operações devem ser informados na ficha **“Renda Variável - Operações Comuns / Day Trade”**. Lembre-se de lançar ali tanto os meses que fecharam com prejuízo quanto os meses que tiveram lucro com vendas totais superiores a R$ 20 mil.
+ - **Isenção de R$ 20 mil:** Os lucros de operações comuns com ações obtidos na condição de isenção devem ser informados apenas na ficha de Rendimentos Isentos e Não Tributáveis – Código 20 “Ganhos Líquidos em operações no mercado à vista de ações negociadas em bolsas de valores nas alienações realizadas até R$ 20.000,00, em cada mês, para o conjunto de ações”. Caso você tenha obtido lucros isentos em múltiplos meses do ano, é permitido somar esses lucros e fazer um único registro consolidado na ficha.
+ - **DARF pago:** Se algum DARF foi pago durante o ano, deve ser informado na ficha “Renda Variável - Operações Comuns / Day trade”, em "Consolidação do Mês", no campo "Imposto Pago" da aba do mês correspondente.
+ - **Rendimentos:** Declare todos rendimentos como bonificações, dividendos e juros sobre capital próprio, recebidos durante o ano.
+
+ 
+
+## Declarando Opções no Imposto de Renda 2026
+
+ 
+ - **Vendido em opção:** Se você virou o ano vendido em alguma opção, coloque em "Dívidas e Ônus Reais" - "Código 16 - Outras dívidas e ônus reais". Na discriminação insira o código da opção, quantidade, preço médio de venda (considere os custos da venda no preço médio). Em 31/12 coloque o valor recebido pela venda (preço médio x quantidade).
+ - **Comprado em opção:** Se virou o ano comprado em alguma opção, coloque em "Bens e Direitos" - **Grupo 04 "Aplicações e Investimentos" - Código "04 - Ativos negociados em bolsa no Brasil (BDRs, opções e outros - exceto ações e fundos)"**. Na discriminação insira o código da opção, quantidade, preço médio de venda (considere os custos da venda no preço médio). **Marcar "Sim" em "Negociados em bolsa?" e escrever o ticker do ativo.** Em 31/12 coloque o valor total gasto na compra da opção (preço médio x quantidade).
+ - **Resultados mensais:** Os resultados mensais obtidos no mercado de opções devem ser colocados na ficha de "Renda Variável" - "Operações Comuns / Day-Trade" - "Mercado Opções - ações".
+
+ 
+
+## Declarando ETFs de renda variável no Imposto de Renda 2026
+
+ 
+ - **Lucros e prejuízos:** Devem ser declarados na ficha de **“Renda Variável - Operações Comuns / Day trade”**, sendo somados aos lucros e prejuízos obtidos no mercado à vista de ações no mesmo mês. Vale lembrar que os ETFs não contam com a isenção de IR para operações comuns caso as vendas não ultrapassem R$ 20 mil no mês, e a tributação é de 15% para operações comuns e 20% para day trade.
+ - **Posição em custódia:** Se virou o ano comprado em cotas de ETF de renda variável, insira elas na ficha de “Bens e Direitos". Utilize **Grupo “07 – Fundos” - Código “06 – FIP – Entidade de Investimento, FDIC – Entidade de Investimento sem tributação periódica (come-cotas), ETF – Entidade de Investimento”**. Preencha o CNPJ do fundo. Na discriminação insira informações como o código da cota do ETF, preço médio de aquisição, quantidade, e a corretora utilizada. **Marcar "Sim" em "Negociados em bolsa?" e escrever o ticker do ativo (ex: BOVA11, IVVB11, etc)**. Em 31/12 coloque o custo total de aquisição, incluindo as taxas envolvidas na transação de compra.
+
+ 
+
+## Entenda o IRRF (Dedo-duro) na nota de corretagem
+
+ 
+
+O Imposto Retido na Fonte (IRRF) sobre operações na bolsa de valores é uma pequena parcela de imposto que já fica retida pela própria corretora de valores. Esse valor, que vem descrito nas notas de corretagens, serve como mecanismo para a Receita Federal ter controle de quem operou na bolsa.
+
+### Como funciona o cálculo?
+
+ 
+
+A base de cálculo e a alíquota variam conforme a modalidade da operação:
+
+ 
+ - **Operações Comuns:** Retenção de **0,005%** sobre o **valor total da venda**, independentemente de haver lucro ou prejuízo. 
+ - *Nota:* Nas operações comuns com ações, a cobrança só é efetivada se o acumulado mensal de IRRF ultrapassar R$ 1,00.
+ - **Day Trade:** Retenção de **1%** sobre o **lucro líquido** obtido no conjunto de operações do dia.
+ 
+ 
+
+### Pontos de Atenção:
+
+ 
+ - **Abatimento:** O valor retido pode ser utilizado para abater o saldo de IR a pagar na DARF 6015 do mês de apuração ou em meses seguintes.
+ - **Prazo:** Essa compensação pode ser realizada apenas até o final do mês de dezembro do ano-calendário em que ocorreu a retenção.
+ - **Alíquotas Finais:** O IRRF é apenas uma fração do imposto real, que é de **15% sobre o lucro em operações comuns** e **20% em Day Trade**.
+ 
+ 
+
+### Dúvida: Tive IRRF de 1% na nota, mas fechei o mês no prejuízo. E agora?
+
+  **Na nota de corretagem tive um IR retido na fonte de 7,32 para operações de day trade, correspondente ao 1% de IRRF sobre o lucro de R$ 732,00. Porém, quando faço a soma de todas as operações de DT do mês, tive um prejuízo. Devo gerar um DARF correspondente aos 20% do lucro ou não?**  
+
+**Não.** Você não deve pagar o DARF se o resultado consolidado do mês foi negativo.
+
+ 
+
+Entenda a lógica para não errar no cálculo:
+
+ 
+ - **O IRRF de 1% (Dedo-Duro):** Ele é retido pela corretora de forma **isolada**. Se você lucrou R$ 732,00 em um único dia, a corretora retém 1% (R$ 7,32) para avisar a Receita que você operou. Ela não sabe se, nos outros dias do mês, você perdeu dinheiro.
+ - **A Regra dos 20%:** O imposto de 20% só incide sobre o **lucro líquido mensal**. Se você somou todos os seus ganhos e perdas de Day Trade no mês e o resultado foi negativo, a base de cálculo é zero. Logo, não há imposto a pagar.
+
+ 
+
+## IRPF 2026: Como declarar dividendos e juros sobre capital próprio
+
+ 
+
+Os dividendos e os juros sobre capital próprio dispensam a necessidade de um acompanhamento mensal rigoroso em relação ao Imposto de Renda por parte do investidor. Isso ocorre devido à isenção de tributação dos dividendos e à incidência de 15% de imposto direto na fonte sobre os juros sobre capital próprio. Embora não exijam um acompanhamento mensal detalhado, é importante salientar que ambos os rendimentos devem ser devidamente incluídos na declaração anual do investidor. Veja abaixo como fazer os lançamentos no programa de declaração.
+
+ 
+
+### Declarar Juros sobre Capital Próprio Creditados e Pagos
+
+ 
+
+Informe os JSCP utilizando código **"10 - Juros sobre capital próprio"** da ficha **"Rendimentos sujeitos à Tributação Exclusiva / Definitiva"**. Coloque o nome e CNPJ da empresa pagadora, e informe o valor líquido recebido (já descontado o IR), exatamente como no informe de rendimentos enviado pela fonte pagadora. É possível obter o informe de rendimentos com o banco escriturador das ações.
+
+ 
+
+### Declarar Juros sobre Capital Próprio Creditados e Não Pagos
+
+ 
+
+Se a efetivação do pagamento dos juros sobre capital próprio não ocorreu no mesmo ano do anúncio (JSCP Declarados e Não Pagos), será necessário fazer o lançamento na ficha "Rendimentos sujeitos à Tributação Exclusiva / Definitiva" e também outro lançamento na ficha **“Bens e Direitos”**, da seguinte forma:
+
+ 
+
+**Grupo:** 99 – Outros bens e direitos, **Código:** 07 - Juros Sobre Capital Próprio creditado, mas não pago
+
+ 
+
+**Discriminação:** JSCP creditado e não pago - [NOME DA EMPRESA] - CNPJ: [00.000.000/0000-00].
+
+ 
+
+**Situação em 31/12:** Colocar R$ 0 na situação do ano anterior e o valor a receber na situação atual.
+
+ 
+
+Quando de fato forem pagos, será necessário APENAS “zerar” esses juros na ficha “Bens e Direitos”.
+
+ 
+
+### Declarar Dividendos de Ações
+
+ 
+
+Informe código **"09 - Lucros e dividendos recebidos"** na ficha **“Rendimentos Isentos e Não Tributáveis”** de sua declaração anual. Coloque o nome e CNPJ da empresa pagadora e o valor, conforme informe de rendimentos enviado por ela. Ao contrário dos Juros sobre capital Próprio, os dividendos são declarados apenas no ano em que efetivamente foram pagos.
+
+ 
+
+### Declarar Dividendos de Fundos Imobiliários
+
+ 
+
+Os rendimentos de fundos imobiliários devem ser declarados na ficha de Rendimentos Isentos e Não tributáveis, código "99 - Outros"
+
+ 
+
+## Mudanças na tributação de dividendos com a Lei nº 15.270, de 26 de novembro de 2025
+
+ 
+
+A Lei nº 15.270, de 26 de novembro de 2025, determina que, a partir de 2026, haverá retenção na fonte de 10% de imposto de renda sobre o total dos dividendos pagos por uma mesma empresa a uma mesma pessoa física residente no Brasil quando o total recebido no mês ultrapassar R$ 50.000,00. Os lucros e dividendos pagos por uma mesma empresa a uma mesma pessoa física em valor até R$ 50.000,00 em um mesmo mês continuam isentos. [Manual de Perguntas e Respostas – Receita Federal](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/perguntas-e-respostas/dirf/manual_padrao_rfb_per_tributacao_cotin_v-19-12-2025.pdf/view)
+
+ 
+
+## IRPF 2026: Como declarar BDRs no imposto de renda
+
+ 
+
+As regras para apuração do imposto na venda de BDRs são muito semelhantes a aquelas utilizadas para as ações:
+
+ 
+ - Alíquota de 15% para as operações comuns (compra e venda em dias diferentes) e 20% para as operações day trade (compra e venda no mesmo dia);
+ - O código do DARF para pagamento do IR mensal é 6015, com vencimento no último dia útil do mês subsequente ao mês que está sendo apurado;
+ - Cabe destacar que prejuízos com BDRs podem ser compensados também com lucros em ações, ETFs, opções e vice-versa, desde que seja a mesma modalidade de operação: comum ou day-trade.
+ 
+ 
+
+Existem apenas duas diferenças se comparado com ações:
+
+ 
+ - **1️⃣ ISENÇÃO:** Ao contrário das ações, os BDRs não possuem nenhuma isenção de IR sobre o lucro das operações comuns para quem vende até R$ 20 mil no mês.
+ - **2️⃣ DIVIDENDOS:** Os dividendos dos BDRs são tributados conforme a [tabela progressiva do imposto de renda](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas), portanto é importante o investidor manter o controle dos dividendos recebidos através do **Carnê Leão Web**, que pode ser acessado no portal do [e-cac da Receita Federal](https://cav.receita.fazenda.gov.br/autenticacao/login). Para inserir os dividendos recebidos basta ir até “rendimentos”, clicar em “+ rendimento”, em Natureza selecione “Outros”, coloque a data do recebimento, marque que é um rendimento recebido do exterior, no campo “Histórico” escreva que se trata de dividendos recebidos de um BDR, informe o valor, e para concluir clique no botão “INCLUIR RENDIMENTO”. 
+
+O DARF para pagamento estará disponível no menu “Demonstrativo” do Carnê Leão Web.
+ 
+ 
+
+### Como declarar lucros e prejuízos de BDRs negociadas durante o ano
+
+ 
+
+Na declaração do imposto de renda, os ganhos obtidos com a venda de BDRs devem ser lançados na ficha de “Renda Variável – Operações Comuns / Day-Trade”, em “mercado à vista – ações”. Ou seja, no mesmo campo em que são declarados os resultados de ações.
+
+  ![Como declarar BDRs no Imposto de Renda](imagens/declarar-bdrs-irpf.png)  
+
+### Como declarar BDRs que possuía no último dia do ano
+
+ 
+
+Se no último dia do ano você terminou comprado em BDRs, declare elas na ficha de Bens e Direitos. Basta utilizar o **Grupo 04 "Aplicações e Investimentos" - Código "04 - Ativos negociados em bolsa no Brasil (BDRs, opções e outros - exceto ações e fundos)"**. Em localização deixe marcado “105 – Brasil”. Escreva na discriminação a quantidade, o código do ativo e nome da empresa, assim como a corretora através da qual realizou a compra. No campo "31/12" insira o custo total de aquisição dos ativos. Esse valor virá do cálculo de quantidade x preço médio de aquisição. Não esqueça de incluir as taxas operacionais no custo de aquisição. Caso possua mais de uma BDR em carteira, faça um lançamento diferente para cada uma.
+
+  ![Como declarar BDRs no Imposto de Renda](imagens/declarar-bdrs-irpf-2.png)  
+
+### Como declarar os dividendos de BDRs
+
+ 
+
+Para declarar os dividendos basta importar os dados do carnê leão, que foi preenchido durante o ano, direto para o programa de declaração do imposto de renda. Na ficha de Rendimentos Tributáveis recebidos de PF/Exterior, clique em “Importar dados do carnê-leão”.
+
+  ![Como declarar BDRs no Imposto de Renda](imagens/declarar-bdrs-irpf-3.png)
+
+ 
+
+## IRPF 2026: Como declarar bonificação de ações no IRPF
+
+ 
+
+O processo de declarar bonificação de ações é uma etapa crucial para investidores que desejam manter sua conformidade fiscal e evitar problemas com a Receita Federal.
+
+ 
+
+Para entender na prática, imagine o seguinte cenário:
+
+ 
+ - **03/05/2025:** Um investidor comprou 1.000 ações de ABCD4 a R$ 10,00 (Total: R$ 10.000,00).
+ - **26/05/2025 (Data-ex):** É aprovada uma bonificação em ações de 30%.
+ 
+ 
+
+Como o acionista manteve a posição de 1.000 ações de ABCD4 até a data estipulada, recebeu 300 ações bonificadas (30% sobre as 1.000 ações que ele possuía), passando a ter um saldo de 1.300 ações.
+
+ 
+
+No Aviso aos Acionistas, o custo unitário atribuído às ações bonificadas foi R$ 5,00. Assim, o custo total das ações bonificadas recebidas por este acionista foi de R$ 1.500,00 (R$ 5,00 x 300 ações recebidas como bonificação). O primeiro passo é colocar o valor de R$ 1.500,00 **na ficha de Rendimentos Isentos e Não-Tributáveis, na linha Incorporação de reservas ao Capital/Bonificação em ações**.
+
+ 
+
+A partir daí, o preenchimento depende do que foi feito com essas ações até o fim do ano. Existem duas possibilidades:
+
+ 
+ - **Virou o ano com as ações em carteira**: 
+
+O acionista irá colocá-las na **ficha Bens e Direitos**. Para isso, deverá calcular o novo preço médio somando a sua compra inicial (1.000 ações x R$ 10,00) com as ações bonificadas (300 ações x R$ 5,00). Nesse caso, o preço médio final ficaria em **R$ 8,846**.
+ - **Vendeu as ações antes da virada do ano**: 
+
+Nesse caso, elas não ficariam na Ficha de Bens e Direitos. Apenas o resultado da operação estará incluído no resultado consolidado do mês em que ocorreu a venda dessas ações, **na ficha Renda Variável - Operações Comuns/Day-Trade**.
+
+ 
+
+No caso de lucro onde o total de vendas no mês tenha sido inferior a R$ 20 mil, esse ganho se torna isento e o valor deve ser informado apenas **na ficha de Rendimentos Isentos e Não Tributáveis (Código 20)**.
+ 
+ 
+
+### Onde declarar frações de bonificação de ações
+
+ 
+
+Quando a bonificação vem com um número de ações “quebrado”, como por exemplo 5,3 ações, o investidor ganha 5 ações e a empresa vende a parte fracionada (0,3 ações) e deposita o dinheiro na conta do investidor. O valor depositado deve ser inserido em **Rendimentos Isentos e Não Tributáveis - Outros**. É necessário inserir o nome e CNPJ da empresa que fez a bonificação, e colocar na descrição que se trata de um ganho referente à venda de resíduos de ações bonificadas.
