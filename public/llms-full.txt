@@ -87,19 +87,15 @@ Dessa forma, obtém-se o **resultado consolidado** mensal para cada categoria.
 
  
 
-Há isenção de IR para **operações normais com ações (somente ações)** caso o investidor tenha vendido até R$ 20 mil em ações no mês. É importante deixar claro que a isenção se aplica ao valor total das vendas de ações no mês, e não ao lucro obtido. Ou seja, se o investidor vender mais de R$ 20 mil em ações no mês, mesmo que o lucro tenha sido de apenas R$ 100, haverá incidência de 15% de imposto de renda sobre esse lucro. Vale destacar que essa isenção é válida exclusivamente para **pessoas físicas** (pessoas jurídicas pagam IR independentemente do volume de vendas).
+Há isenção de IR para **operações normais com ações** caso o investidor tenha vendido até R$ 20 mil em ações no mês. É importante deixar claro que a isenção se aplica ao valor total das vendas de ações no mês, e não ao lucro obtido. Ou seja, se o investidor vender mais de R$ 20 mil em ações no mês, mesmo que o lucro tenha sido de apenas R$ 100, haverá incidência de 15% de imposto de renda sobre esse lucro. Vale destacar que essa isenção é válida exclusivamente para **pessoas físicas** (pessoas jurídicas pagam IR independentemente do volume de vendas).
 
  
 
-As operações de day trade, as operações com opções e a venda de Fundos Imobiliários (FIIs) não entram no cálculo do limite de R$ 20 mil, pois possuem regras próprias e não afetam o teto de isenção das ações. Da mesma forma, operações com ouro no mercado à vista possuem limites de isenção separados e não devem ser somadas às ações.
+As operações de day trade, as operações com opções e a venda de Fundos Imobiliários (FIIs) não entram no cálculo do limite de R$ 20 mil, pois possuem regras próprias e não afetam o teto de isenção das ações. Além disso, essas operações não possuem isenção, sendo sempre tributadas.
 
  
 
 O cálculo do limite de R$ 20 mil deve ser feito **por CPF**, somando obrigatoriamente as vendas de ações realizadas em **todas as corretoras** que você utilizar no mesmo mês — ou seja, operar em mais de uma corretora não multiplica o limite de isenção. Por outro lado, caso você possua um lote valorizado (por exemplo, comprou R$ 20 mil que subiram para R$ 45 mil), você pode realizar vendas fracionadas abaixo de R$ 20 mil em cada mês (como vender R$ 15 mil mensais) e continuará totalmente isento de IR em cada uma dessas operações.
-
- 
-
-As operações de day trade e as operações com opções não entram no cálculo do limite de R$ 20 mil em vendas de ações no mês usado para verificar a isenção de Imposto de Renda. Além disso, essas operações não possuem isenção, sendo sempre tributadas.
 
  
 
@@ -169,7 +165,7 @@ Para quem investe na bolsa de valores precisa estar atento à necessidade de rec
 
  
 
-Cada tipo de imposto tem um código diferente que identifica qual tipo de arrecadação está sendo realizada. No caso do imposto sobre ganhos líquidos em renda variável, o código a ser utilizado é 6015. **O DARF 6015 serve para recolher IR sobre ganhos de day trade e operações comuns (swing trade)**. Embora as alíquotas de imposto sejam diferentes, o documento de arrecadação utilizado para declarar os ganhos líquidos em renda variável na bolsa de valores é unificado sob este código.
+Cada tipo de imposto tem um código diferente que identifica qual tipo de arrecadação está sendo realizada. No caso do imposto sobre ganhos líquidos em renda variável, o **o DARF código 6015 serve para recolher IR sobre ganhos de day trade e operações comuns (swing trade)**. Embora as alíquotas de imposto sejam diferentes, o documento de arrecadação é unificado sob este código.
 
  
 
@@ -270,11 +266,7 @@ Se você realizou operações na bolsa de valores, é importante calcular e decl
 ## Declarando ETFs de renda variável no Imposto de Renda 2026
 
  
-
-Para declarar ETFs de renda variável, o caminho é quase idêntico ao das ações.
-
- 
- - **Lucros e prejuízos:** Lucros e prejuízos apurados mensalmente devem ser declarados na ficha de **“Renda Variável - Operações Comuns / Day trade”** (ganhos com ETFs e ações devem ser somados e declarados no mesmo campo). Vale lembrar que os ETFs não contam com a isenção de IR para operações comuns caso as vendas não ultrapassem R$ 20 mil no mês. A tributação é de 15% para operações comuns e 20% para day trade.
+ - **Lucros e prejuízos:** Devem ser declarados na ficha de **“Renda Variável - Operações Comuns / Day trade”**, sendo somados aos lucros e prejuízos obtidos no mercado à vista de ações no mesmo mês. Vale lembrar que os ETFs não contam com a isenção de IR para operações comuns caso as vendas não ultrapassem R$ 20 mil no mês, e a tributação é de 15% para operações comuns e 20% para day trade.
  - **Posição em custódia:** Se virou o ano comprado em cotas de ETF de renda variável, insira elas na ficha de “Bens e Direitos". Utilize **Grupo “07 – Fundos” - Código “06 – FIP – Entidade de Investimento, FDIC – Entidade de Investimento sem tributação periódica (come-cotas), ETF – Entidade de Investimento”**. Preencha o CNPJ do fundo. Na discriminação insira informações como o código da cota do ETF, preço médio de aquisição, quantidade, e a corretora utilizada. **Marcar "Sim" em "Negociados em bolsa?" e escrever o ticker do ativo (ex: BOVA11, IVVB11, etc)**. Em 31/12 coloque o custo total de aquisição, incluindo as taxas envolvidas na transação de compra.
 
  
