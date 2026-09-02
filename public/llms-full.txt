@@ -107,7 +107,7 @@ Opções exigem cuidado especial em relação ao vencimento, exercício ou encer
 
  
  - Se as opções “virarem pó”, o valor do prêmio será o ganho do lançador (vendedor) e prejuízo para o titular (comprador), na data do vencimento da opção.
- - Se houver compra e venda das opções, o cálculo do lucro ou prejuízo fica idêntico ao de uma operação com ações, ou seja: **(preço venda - preço compra) * quantidade – taxas operacionais**. Será considerada uma operação normal se a compra e venda ocorrerem em dias diferentes e uma operação day trade se a compra e venda ocorrerem no mesmo dia.
+ - Se houver compra e venda das opções, o cálculo do lucro ou prejuízo fica idêntico ao de uma operação com ações, e será considerada uma operação normal se a compra e venda ocorrerem em dias diferentes e uma operação day trade se a compra e venda ocorrerem no mesmo dia.
  
  
 
@@ -165,7 +165,7 @@ Para quem investe na bolsa de valores precisa estar atento à necessidade de rec
 
  
 
-Cada tipo de imposto tem um código diferente que identifica qual tipo de arrecadação está sendo realizada. No caso do imposto sobre ganhos líquidos em renda variável, o **o DARF código 6015 serve para recolher IR sobre ganhos de day trade e operações comuns (swing trade)**. Embora as alíquotas de imposto sejam diferentes, o documento de arrecadação é unificado sob este código.
+Cada tipo de imposto tem um código diferente que identifica qual tipo de arrecadação está sendo realizada. No caso do imposto sobre ganhos líquidos em renda variável, **o DARF código 6015 serve para recolher IR sobre ganhos de day trade e operações comuns (swing trade)**. Embora as alíquotas de imposto sejam diferentes, o documento de arrecadação é unificado sob este código.
 
  
 
@@ -396,7 +396,7 @@ Existem apenas duas diferenças se comparado com ações:
 
  
  - **1️⃣ ISENÇÃO:** Ao contrário das ações, os BDRs não possuem nenhuma isenção de IR sobre o lucro das operações comuns para quem vende até R$ 20 mil no mês.
- - **2️⃣ DIVIDENDOS:** Os dividendos dos BDRs são tributados conforme a [tabela progressiva do imposto de renda](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas), portanto é importante o investidor manter o controle dos dividendos recebidos através do **Carnê Leão Web**, que pode ser acessado no portal do [e-cac da Receita Federal](https://cav.receita.fazenda.gov.br/autenticacao/login). Para inserir os dividendos recebidos basta ir até “rendimentos”, clicar em “+ rendimento”, em Natureza selecione “Outros”, coloque a data do recebimento, marque que é um rendimento recebido do exterior, no campo “Histórico” escreva que se trata de dividendos recebidos de um BDR, informe o valor, e para concluir clique no botão “INCLUIR RENDIMENTO”. 
+ - **2️⃣ DIVIDENDOS:** Os dividendos dos BDRs são tributados conforme a [tabela progressiva do imposto de renda](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas), portanto é importante o investidor manter o controle dos dividendos recebidos através do **Carnê Leão Web**, no portal do [e-cac da Receita Federal](https://cav.receita.fazenda.gov.br/autenticacao/login). Para inserir os dividendos recebidos basta ir até “rendimentos”, clicar em “+ rendimento”, em Natureza selecione “Outros”, coloque a data do recebimento, marque que é um rendimento recebido do exterior, no campo “Histórico” escreva que se trata de dividendos recebidos de um BDR, informe o valor, e para concluir clique no botão “INCLUIR RENDIMENTO”. 
 
 O DARF para pagamento estará disponível no menu “Demonstrativo” do Carnê Leão Web.
  
