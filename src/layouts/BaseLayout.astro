@@ -1,4 +1,6 @@
 ---
+import '../styles/fonts.css';
+
 const { 
   title = "DARF 6015 | Cálculo e Guia para Investidores", 
   description, 
@@ -10,10 +12,8 @@ const {
 const siteRoot = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
 const absoluteOgImage = `${siteRoot}${ogImage}`;
 
-// Mantém o comportamento correto de barras para as páginas de conteúdo
-const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
-
-import '../styles/fonts.css';
+// Aplica a condição: se includeCanonical for falso, retorna null
+const canonicalURL = includeCanonical ? new URL(Astro.url.pathname, Astro.site).toString() : null;
 ---
 <!DOCTYPE html>
 <html lang="pt-BR" dir="ltr">
@@ -29,7 +29,7 @@ import '../styles/fonts.css';
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="DARF 6015" />
-<meta property="og:url" content={canonicalURL} />
+{canonicalURL && <meta property="og:url" content={canonicalURL} />}
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:locale" content="pt_BR" />
@@ -45,7 +45,7 @@ import '../styles/fonts.css';
 <!-- Twitter / X -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@TraderBolsa" />
-<meta property="twitter:url" content={canonicalURL} />
+{canonicalURL && <meta property="twitter:url" content={canonicalURL} />}
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={absoluteOgImage} />
