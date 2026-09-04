@@ -1,12 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
+// Força o status HTTP correto para o servidor/hospedagem (ex: Cloudflare Pages / Vercel)
+Astro.response.status = 404;
+Astro.response.statusText = "Not Found";
+
 const title = "404 - Página não encontrada";
 const description = "A página que você está procurando não existe. Volte para o início do site DARF 6015.";
 const siteURL = "https://www.darf6015.com.br";
 const canonicalURL = `${siteURL}${Astro.url.pathname}`;
 ---
-<BaseLayout title={title} description={description} canonical={canonicalURL} robots="noindex, follow">
+<BaseLayout title={title} description={description} canonical={canonicalURL} robots="noindex, nofollow">
   <main style="text-align: center; padding: 80px 20px;">
     <h1 style="font-size: 48px; margin-bottom: 20px;">404</h1>
     <p style="font-size: 18px; margin-bottom: 30px;">Página não encontrada.</p>
