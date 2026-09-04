@@ -23,7 +23,7 @@ import '../styles/fonts.css';
 
 <meta name="description" content={description} />
 
-<link rel="canonical" href={canonicalURL} />
+{canonicalURL && <link rel="canonical" href={canonicalURL} />}
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
