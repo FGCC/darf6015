@@ -38,7 +38,7 @@ Gerar a DARF de Day Trade e Swing Trade na B3 não precisa ser uma dor de cabeç
 
  
 
-## Como calcular o lucro ou prejuízo na venda de ações?
+## Como calcular o lucro ou prejuízo na venda de ações, BDRs e ETFs?
 
  
 
@@ -59,7 +59,7 @@ Em operações de venda a descoberto, o custo do **aluguel de ações** também 
 
  
 
-## Como calcular o IR das operações com ações
+## Como calcular o IR das operações com ações, BDRs e ETFs
 
  
 
