@@ -284,7 +284,8 @@ A base de cálculo e a alíquota variam conforme a modalidade da operação:
  
  - **Operações Comuns:** Retenção de **0,005%** sobre o **valor total da venda**, independentemente de haver lucro ou prejuízo. 
  - *Nota:* Nas operações comuns com ações, a cobrança só é efetivada se o acumulado mensal de IRRF ultrapassar R$ 1,00.
- - **Day Trade:** Retenção de **1%** sobre o **lucro líquido** obtido no conjunto de operações do dia.
+ - **Day Trade:** Retenção de **1%** sobre o **lucro líquido** obtido no conjunto de operações do dia. 
+ - **E se teve IRRF de 1% na nota de corretagem, mas fechou o mês no prejuízo?** A retenção de 1% ocorre de forma isolada por dia lucrativo, mas o imposto final incide exclusivamente sobre o lucro líquido mensal. Se o seu saldo consolidado do mês foi negativo, você não deve pagar DARF.
  
  
 
@@ -294,22 +295,6 @@ A base de cálculo e a alíquota variam conforme a modalidade da operação:
  - **Abatimento:** O valor retido pode ser utilizado para abater o saldo de IR a pagar na DARF 6015 do mês de apuração ou em meses seguintes.
  - **Prazo:** Essa compensação pode ser realizada apenas até o final do mês de dezembro do ano-calendário em que ocorreu a retenção.
  - **Alíquotas Finais:** O IRRF é apenas uma fração do imposto real, que é de **15% sobre o lucro em operações comuns** e **20% em Day Trade**.
- 
- 
-
-### Dúvida: Tive IRRF de 1% na nota, mas fechei o mês no prejuízo. E agora?
-
-  **Na nota de corretagem tive um IR retido na fonte de 7,32 para operações de day trade, correspondente ao 1% de IRRF sobre o lucro de R$ 732,00. Porém, quando faço a soma de todas as operações de DT do mês, tive um prejuízo. Devo gerar um DARF correspondente aos 20% do lucro ou não?**  
-
-**Não.** Você não deve pagar o DARF se o resultado consolidado do mês foi negativo.
-
- 
-
-Entenda a lógica para não errar no cálculo:
-
- 
- - **O IRRF de 1% (Dedo-Duro):** Ele é retido pela corretora de forma **isolada**. Se você lucrou R$ 732,00 em um único dia, a corretora retém 1% (R$ 7,32) para avisar a Receita que você operou. Ela não sabe se, nos outros dias do mês, você perdeu dinheiro.
- - **A Regra dos 20%:** O imposto de 20% só incide sobre o **lucro líquido mensal**. Se você somou todos os seus ganhos e perdas de Day Trade no mês e o resultado foi negativo, a base de cálculo é zero. Logo, não há imposto a pagar.
 
  
 
