@@ -91,7 +91,7 @@ Há isenção de IR para **operações normais com ações** caso o investidor t
 
  
 
-As operações de day trade, as operações com opções e a venda de Fundos Imobiliários (FIIs) não entram no cálculo do limite de R$ 20 mil, pois possuem regras próprias e não afetam o teto de isenção das ações. Além disso, essas operações não possuem isenção, sendo sempre tributadas.
+As operações de day trade, as operações com opções, BDRs, ETFs e a venda de Fundos Imobiliários (FIIs) não entram no cálculo do limite de R$ 20 mil, pois possuem regras próprias e não afetam o teto de isenção das ações. Além disso, essas operações não possuem isenção, sendo sempre tributadas.
 
  
 
@@ -135,7 +135,7 @@ Os prejuízos devem ser utilizados para abater lucros ocorridos no mesmo mês de
 
  
 
-O investidor precisa estar antenado ao fato de só poder compensar prejuízos entre operações de mesma espécie (normal com normal e day trade com day trade). Dentro dessa mesma modalidade, os resultados de ações, opções e contratos do mercado futuro (como mini-índice e mini-dólar) podem ser abatidos entre si. Ou seja, é permitido compensar prejuízos e lucros cruzados entre esses diferentes mercados no day trade, assim como ocorre de forma correspondente nas operações normais.
+O investidor precisa estar antenado ao fato de só poder compensar prejuízos entre operações de mesma espécie (normal com normal e day trade com day trade). Dentro dessa mesma modalidade, os resultados de ações, ETFs, BDRs, opções e contratos do mercado futuro (como mini-índice e mini-dólar) podem ser abatidos entre si. Ou seja, é permitido compensar prejuízos e lucros cruzados entre esses diferentes mercados no day trade, assim como ocorre de forma correspondente nas operações normais.
 
  
 
@@ -143,11 +143,11 @@ O investidor precisa estar antenado ao fato de só poder compensar prejuízos en
 
  
 
-A alíquota é de 15% para operações comuns e 20% para operações de day trade. Essas taxas são as mesmas para ações, opções e mercado futuro. A única exceção refere-se às ações, que contam com isenção em operações comuns caso o total das vendas no mês não ultrapasse R$ 20 mil. Após aplicar a alíquota sobre o lucro mensal, deve-se calcular o valor do DARF para o pagamento do tributo, conforme o seguinte exemplo de cálculo:
+A alíquota é de 15% para operações comuns e 20% para operações de day trade. Essas taxas são as mesmas para ações, opções, ETFs, BDRs, e mercado futuro. A única exceção refere-se às ações, que contam com isenção em operações comuns caso o total das vendas no mês não ultrapasse R$ 20 mil. Após aplicar a alíquota sobre o lucro mensal, deve-se calcular o valor do DARF para o pagamento do tributo, conforme o seguinte exemplo de cálculo:
 
   ![Como calcular o Imposto de Renda sobre ações na bolsa de valores](imagens/calculo-ir-bolsa.png)  
 
-Vale destacar também que a tributação dos FIIs difere daquela aplicada às ações: a alíquota de IR sobre o ganho de capital é fixada em 20%, independentemente do tipo de operação: normal ou day trade. Além disso, não há isenção para vendas abaixo de R$ 20 mil, e eventuais prejuízos só podem ser compensados com lucros da mesma categoria (outros FIIs).
+Vale destacar também que a tributação dos FIIs difere daquela aplicada às ações: a alíquota de IR sobre o ganho de capital é fixada em 20%, independentemente do tipo de operação: normal ou day trade. Além disso, eventuais prejuízos só podem ser compensados com lucros da mesma categoria (outros FIIs).
 
  
 
@@ -264,7 +264,7 @@ Se você realizou operações na bolsa de valores, é importante calcular e decl
 ## Declarando ETFs de renda variável no Imposto de Renda 2026
 
  
- - **Lucros e prejuízos:** Devem ser declarados na ficha de **“Renda Variável - Operações Comuns / Day trade”**, sendo somados aos lucros e prejuízos obtidos no mercado à vista de ações no mesmo mês. Vale lembrar que os ETFs não contam com a isenção de IR para operações comuns caso as vendas não ultrapassem R$ 20 mil no mês, e a tributação é de 15% para operações comuns e 20% para day trade.
+ - **Lucros e prejuízos:** Devem ser declarados na ficha de **“Renda Variável - Operações Comuns / Day trade”**, sendo somados aos lucros e prejuízos obtidos no mercado à vista de ações no mesmo mês.
  - **Posição em custódia:** Se virou o ano comprado em cotas de ETF de renda variável, insira elas na ficha de “Bens e Direitos". Utilize **Grupo “07 – Fundos” - Código “06 – FIP – Entidade de Investimento, FDIC – Entidade de Investimento sem tributação periódica (come-cotas), ETF – Entidade de Investimento”**. Preencha o CNPJ do fundo. Na discriminação insira informações como o código da cota do ETF, preço médio de aquisição, quantidade, e a corretora utilizada. **Marcar "Sim" em "Negociados em bolsa?" e escrever o ticker do ativo (ex: BOVA11, IVVB11, etc)**. Em 31/12 coloque o custo total de aquisição, incluindo as taxas envolvidas na transação de compra.
 
  
@@ -381,23 +381,8 @@ A Lei nº 15.270, de 26 de novembro de 2025, determina que, a partir de 2026, ha
 
  
 
-As regras para apuração do imposto na venda de BDRs são muito semelhantes a aquelas utilizadas para as ações:
+Para quem investe em BDRs, o processo de acerto de contas com a Receita Federal pode parecer complexo à primeira vista. No entanto, a boa notícia é que as regras para a declaração do imposto de renda de BDRs seguem uma lógica muito semelhante àquelas utilizadas para as ações, facilitando o preenchimento para quem já tem familiaridade com a renda variável.
 
- 
- - Alíquota de 15% para as operações comuns (compra e venda em dias diferentes) e 20% para as operações day trade (compra e venda no mesmo dia);
- - O código do DARF para pagamento do IR mensal é 6015, com vencimento no último dia útil do mês subsequente ao mês que está sendo apurado;
- - Cabe destacar que prejuízos com BDRs podem ser compensados também com lucros em ações, ETFs, opções e vice-versa, desde que seja a mesma modalidade de operação: comum ou day-trade.
- 
- 
-
-Existem apenas duas diferenças se comparado com ações:
-
- 
- - **1️⃣ ISENÇÃO:** Ao contrário das ações, os BDRs não possuem nenhuma isenção de IR sobre o lucro das operações comuns para quem vende até R$ 20 mil no mês.
- - **2️⃣ DIVIDENDOS:** Os dividendos dos BDRs são tributados conforme a [tabela progressiva do imposto de renda](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas), portanto é importante o investidor manter o controle dos dividendos recebidos através do **Carnê Leão Web**, no portal do [e-cac da Receita Federal](https://cav.receita.fazenda.gov.br/autenticacao/login). Para inserir os dividendos recebidos basta ir até “rendimentos”, clicar em “+ rendimento”, em Natureza selecione “Outros”, coloque a data do recebimento, marque que é um rendimento recebido do exterior, no campo “Histórico” escreva que se trata de dividendos recebidos de um BDR, informe o valor, e para concluir clique no botão “INCLUIR RENDIMENTO”. 
-
-O DARF para pagamento estará disponível no menu “Demonstrativo” do Carnê Leão Web.
- 
  
 
 ### Como declarar lucros e prejuízos de BDRs negociadas durante o ano
@@ -420,7 +405,15 @@ Se no último dia do ano você terminou comprado em BDRs, declare eles na ficha 
 
  
 
-Para declarar os dividendos basta importar os dados do carnê leão, que foi preenchido durante o ano, direto para o programa de declaração do imposto de renda. Na ficha de Rendimentos Tributáveis recebidos de PF/Exterior, clique em “Importar dados do carnê-leão”.
+Os dividendos dos BDRs são tributados conforme a [tabela progressiva do imposto de renda](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas), portanto é importante o investidor manter o controle dos dividendos recebidos através do **Carnê Leão Web**, no portal do [e-cac da Receita Federal](https://cav.receita.fazenda.gov.br/autenticacao/login). Para inserir os dividendos recebidos basta ir até “rendimentos”, clicar em “+ rendimento”, em Natureza selecione “Outros”, coloque a data do recebimento, marque que é um rendimento recebido do exterior, no campo “Histórico” escreva que se trata de dividendos recebidos de um BDR, informe o valor, e para concluir clique no botão “INCLUIR RENDIMENTO”.
+
+ 
+
+O DARF para pagamento estará disponível no menu “Demonstrativo” do Carnê Leão Web.
+
+ 
+
+Na declaração do imposto de renda anual, basta importar o que foi preenchido no carnê-leão durante o ano. Na ficha de Rendimentos Tributáveis recebidos de PF/Exterior, clique em “Importar dados do carnê-leão”.
 
   ![Como declarar BDRs no Imposto de Renda](imagens/declarar-bdrs-irpf-3.png)
 
