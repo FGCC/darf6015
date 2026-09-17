@@ -1,16 +1,15 @@
-# Calculadora de Ações: Controle de IR e DARF Day Trade e Swing Trade
+# DARF 6015 - Documentação Completa do Site
 
-> Operou na Bolsa e precisa pagar o DARF 6015? Aprenda como calcular seus ganhos líquidos, apurar o Imposto de Renda sobre ações e declarar corretamente para evitar a malha fina.
-
-# Calculadora de Ações: Controle de IR e DARF Day Trade e Swing Trade
-
+## URL: https://www.darf6015.com.br/
+- Título: Calculadora de Ações: Controle de IR e DARF Day Trade e Swing Trade
+- Descrição: Operou na Bolsa e precisa pagar o DARF 6015? Aprenda como calcular seus ganhos líquidos, apurar o Imposto de Renda sobre ações e emitir sua guia sem erros.
   
 
 ## Introdução e Planilha para apurar IR na bolsa de valores
 
  
 
-Gerar a DARF de Day Trade e Swing Trade na B3 não precisa ser uma dor de cabeça. Automatize todo o cálculo do seu imposto de renda na bolsa de valores, compense prejuízos passados de forma simples e fique 100% em dia com a Receita Federal — sem risco de multas ou erros manuais.
+Gerar a DARF de Day Trade e Swing Trade na B3 não precisa ser uma dor de cabeça. Automatize com uma planilha todo o cálculo do seu imposto de renda na bolsa de valores, compense prejuízos passados de forma simples e fique 100% em dia com a Receita Federal — sem risco de multas ou erros manuais.
 
  
 
@@ -218,6 +217,40 @@ Sim, você pode pagar o DARF em atraso a qualquer momento. No entanto, o valor t
 
  
 
+## Entenda o IRRF (Dedo-duro) na nota de corretagem
+
+ 
+
+O Imposto Retido na Fonte (IRRF) sobre operações na bolsa de valores é uma pequena parcela de imposto que já fica retida pela própria corretora de valores. Esse valor, que vem descrito nas notas de corretagens, serve como mecanismo para a Receita Federal ter controle de quem operou na bolsa.
+
+### Como funciona o cálculo?
+
+ 
+
+A base de cálculo e a alíquota variam conforme a modalidade da operação:
+
+ 
+ - **Operações Comuns:** Retenção de **0,005%** sobre o **valor total da venda**, independentemente de haver lucro ou prejuízo. 
+ - *Nota:* Nas operações comuns com ações, a cobrança só é efetivada se o acumulado mensal de IRRF ultrapassar R$ 1,00.
+ - **Day Trade:** Retenção de **1%** sobre o **lucro líquido** obtido no conjunto de operações do dia. 
+ - **E se teve IRRF de 1% na nota de corretagem, mas fechou o mês no prejuízo?** A retenção de 1% ocorre de forma isolada por dia lucrativo, mas o imposto final incide exclusivamente sobre o lucro líquido mensal. Se o seu saldo consolidado do mês foi negativo, você não deve pagar DARF.
+ 
+ 
+
+### Pontos de Atenção:
+
+ 
+ - **Abatimento:** O valor retido pode ser utilizado para abater o saldo de IR a pagar na DARF 6015 do mês de apuração ou em meses seguintes.
+ - **Prazo:** Essa compensação pode ser realizada apenas até o final do mês de dezembro do ano-calendário em que ocorreu a retenção.
+ - **Alíquotas Finais:** O IRRF é apenas uma fração do imposto real, que é de **15% sobre o lucro em operações comuns** e **20% em Day Trade**.
+
+---
+
+## URL: https://www.darf6015.com.br/como-declarar-acoes-imposto-de-renda
+- Título: Como Declarar Ações no Imposto de Renda: O Guia Completo
+- Descrição: Guia definitivo para declaração anual de ações e ativos na B3.
+
+
 ## Devo declarar ações no imposto de renda 2026?
 
  
@@ -266,35 +299,6 @@ Se você realizou operações na bolsa de valores, é importante calcular e decl
  
  - **Lucros e prejuízos:** Devem ser declarados na ficha de **“Renda Variável - Operações Comuns / Day trade”**, sendo somados aos lucros e prejuízos obtidos no mercado à vista de ações no mesmo mês.
  - **Posição em custódia:** Se virou o ano comprado em cotas de ETF de renda variável, insira elas na ficha de “Bens e Direitos". Utilize **Grupo “07 – Fundos” - Código “06 – FIP – Entidade de Investimento, FDIC – Entidade de Investimento sem tributação periódica (come-cotas), ETF – Entidade de Investimento”**. Preencha o CNPJ do fundo. Na discriminação insira informações como o código da cota do ETF, preço médio de aquisição, quantidade, e a corretora utilizada. **Marcar "Sim" em "Negociados em bolsa?" e escrever o ticker do ativo (ex: BOVA11, IVVB11, etc)**. Em 31/12 coloque o custo total de aquisição, incluindo as taxas envolvidas na transação de compra.
-
- 
-
-## Entenda o IRRF (Dedo-duro) na nota de corretagem
-
- 
-
-O Imposto Retido na Fonte (IRRF) sobre operações na bolsa de valores é uma pequena parcela de imposto que já fica retida pela própria corretora de valores. Esse valor, que vem descrito nas notas de corretagens, serve como mecanismo para a Receita Federal ter controle de quem operou na bolsa.
-
-### Como funciona o cálculo?
-
- 
-
-A base de cálculo e a alíquota variam conforme a modalidade da operação:
-
- 
- - **Operações Comuns:** Retenção de **0,005%** sobre o **valor total da venda**, independentemente de haver lucro ou prejuízo. 
- - *Nota:* Nas operações comuns com ações, a cobrança só é efetivada se o acumulado mensal de IRRF ultrapassar R$ 1,00.
- - **Day Trade:** Retenção de **1%** sobre o **lucro líquido** obtido no conjunto de operações do dia. 
- - **E se teve IRRF de 1% na nota de corretagem, mas fechou o mês no prejuízo?** A retenção de 1% ocorre de forma isolada por dia lucrativo, mas o imposto final incide exclusivamente sobre o lucro líquido mensal. Se o seu saldo consolidado do mês foi negativo, você não deve pagar DARF.
- 
- 
-
-### Pontos de Atenção:
-
- 
- - **Abatimento:** O valor retido pode ser utilizado para abater o saldo de IR a pagar na DARF 6015 do mês de apuração ou em meses seguintes.
- - **Prazo:** Essa compensação pode ser realizada apenas até o final do mês de dezembro do ano-calendário em que ocorreu a retenção.
- - **Alíquotas Finais:** O IRRF é apenas uma fração do imposto real, que é de **15% sobre o lucro em operações comuns** e **20% em Day Trade**.
 
  
 
