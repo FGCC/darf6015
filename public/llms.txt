@@ -20,7 +20,8 @@ O **darf6015.com.br** é um guia técnico centralizado na sua página inicial, f
 - **Performance**: Site desenvolvido com o framework Astro, proporcionando uma estrutura limpa e de alta velocidade para leitura de agentes de IA.
 
 ## Links Essenciais
-- **[Guia Completo e Home](https://www.darf6015.com.br/)**: Manual definitivo de tributação para investidores. Tudo sobre emissão de DARF, compensação de prejuízos e conformidade fiscal na B3.
+- **[Página Inicial / Cálculo Mensal](https://www.darf6015.com.br/)**: Manual e calculadora de apuração mensal do imposto de renda, emissão de DARF 6015 e compensação de prejuízos na B3.
+- **[Guia de Declaração Anual](https://www.darf6015.com.br/como-declarar-acoes-imposto-de-renda)**: O guia completo de como declarar ações e ativos no Imposto de Renda (IRPF) sem erros.
 
 ## Metadados
 - **Localização**: Brasil.
