@@ -12,8 +12,14 @@ const {
 const siteRoot = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
 const absoluteOgImage = `${siteRoot}${ogImage}`;
 
-// Aplica a condição: se includeCanonical for falso, retorna null
-const canonicalURL = includeCanonical ? new URL(Astro.url.pathname, Astro.site).toString() : null;
+// Garante que o caminho sempre termine com barra, respeitando o trailingSlash: 'always'
+let pathname = Astro.url.pathname;
+if (!pathname.endsWith('/')) {
+  pathname += '/';
+}
+
+const canonicalURL = includeCanonical ? new URL(pathname, Astro.site).toString() : null;
+
 ---
 <!DOCTYPE html>
 <html lang="pt-BR" dir="ltr">
