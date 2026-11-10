@@ -11,6 +11,7 @@ export async function onRequest(context) {
     pathname.startsWith('/sitemap') ||
     pathname.startsWith('/imagens/') ||
     pathname.startsWith('/fonts/') ||
+    pathname.endsWith('.webp') ||
     pathname.endsWith('.png') ||
     pathname.endsWith('.ico') ||
     pathname.endsWith('.txt')
