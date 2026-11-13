@@ -30,7 +30,6 @@ const canonicalURL = includeCanonical ? new URL(pathname, Astro.site).toString()
     <title>{title}</title>
 
 <meta name="description" content={description} />
-{noindex && <meta name="robots" content="noindex, follow" />}
 
 {canonicalURL && <link rel="canonical" href={canonicalURL} />}
 
@@ -58,7 +57,10 @@ const canonicalURL = includeCanonical ? new URL(pathname, Astro.site).toString()
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={absoluteOgImage} />
 
-<meta name="robots" content="max-image-preview:large" />
+{noindex 
+  ? <meta name="robots" content="noindex, follow" /> 
+  : <meta name="robots" content="max-image-preview:large" />
+}
 
 <!-- Favicon -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
