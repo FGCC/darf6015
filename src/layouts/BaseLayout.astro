@@ -6,6 +6,7 @@ const {
   description, 
   ogImage = "/og-image.png",
   includeCanonical = true
+  noindex = false
 } = Astro.props;
 
 // Remove qualquer barra no final do site para garantir que a junção com a imagem fique limpa
@@ -29,6 +30,7 @@ const canonicalURL = includeCanonical ? new URL(pathname, Astro.site).toString()
     <title>{title}</title>
 
 <meta name="description" content={description} />
+{noindex && <meta name="robots" content="noindex, follow" />}
 
 {canonicalURL && <link rel="canonical" href={canonicalURL} />}
 
