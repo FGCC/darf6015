@@ -419,24 +419,3 @@ ul.lista-compacta {
     display: none;
   }
 }
-
-.data-atualizacao {
-  display: inline-block;
-  font-size: 0.85rem;
-  color: #374151;
-  background-color: #e5e7eb;
-  padding: 4px 10px;
-  border-radius: 4px;
-  margin-top: -0.5rem;
-  margin-bottom: 0.75rem;
-}
-
-.data-atualizacao + p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-.data-atualizacao + p + section,
-.data-atualizacao + p + section h2 {
-  margin-top: 0;
-}
