@@ -146,20 +146,20 @@ h2 {
   line-height: 1.35;
   margin-top: 16px;
   margin-bottom: 16px;
-  background-color: #a0cbff;
+  background-color: #141414;
   padding: 2px 4px;
   font-size: 1.5em; 
   font-weight: bold;
-  text-decoration: underline;
+  color: white
 }
 
 h3 {
   font-size: 1.17em;
   line-height: 1.35;
   margin: 16px 0;
-  background-color: #a0cbff;
+  background-color: #141414;
   padding: 2px 4px;
-  text-decoration: underline; 
+  color: white
 }
 
 /* --- ADICIONE ESTE BLOCO LOGO ABAIXO PARA CONTROLAR O CELULAR --- */
